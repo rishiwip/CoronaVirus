@@ -216,7 +216,7 @@ def main():
             ax.plot(ks, [bench[f"{m}|{k}"][key] for k in ks], marker=mk, ls=ls, color=col, ms=4, lw=1.2, label=lab)
         okey = key.replace("upgma", "single") if key.startswith("upgma") else key
         ax.plot([1, 2, 3], [bench[f"original-pipeline|{k}"][okey] for k in (1, 2, 3)], marker="x", ls="",
-                color="#000000", ms=6, label="coursework pipeline as run")
+                color="#000000", ms=6, label="wrapped-count baseline")
         ax.plot([2], [bench["karlin-delta|2"][key]], marker="*", ls="", color="#CC79A7", ms=8,
                 label="dinucleotide relative abundance, δ*")
         for (m, xx), lab, col in zip(cds_x.items(), ("codon frequency", "RSCU", "amino-acid frequency"),
@@ -233,7 +233,7 @@ def main():
         ax.set_xticklabels([str(k) for k in cga.KS] + ["coding\nsequences"])
     for ax in axes[1]:
         ax.set_xlabel("word length k")
-    axes[0, 0].text(2, 0.97, "coursework\nrange", ha="center", va="top", fontsize=6.5, color="#666666")
+    axes[0, 0].text(2, 0.97, "short-word\nregime", ha="center", va="top", fontsize=6.5, color="#666666")
     h, l = axes[1, 1].get_legend_handles_labels()
     fig.legend(h, l, loc="lower center", ncol=3, frameon=False, fontsize=7, bbox_to_anchor=(0.5, -0.09))
     fig.tight_layout()
@@ -308,7 +308,7 @@ def main():
     Zo = linkage(cga.zscore(feats["orig3"][pidx]), "single")
     draw_linkage(axes[0, 0], Zo, panel, label, color, marker(None, refp, ptaxa, panel[0]),
                  xlabel="single-linkage merge distance")
-    axes[0, 0].set_title("a   Coursework pipeline as run, tri-nucleotide counts", loc="left", fontweight="bold", fontsize=8)
+    axes[0, 0].set_title("a   Wrapped-count baseline, tri-nucleotide counts", loc="left", fontweight="bold", fontsize=8)
     Z = np.load(os.path.join(cga.RESULTS, "panel12-freq-euclid-k3-linkage.npy"))
     draw_linkage(axes[0, 1], Z, panel, label, color, marker(psup["freq-euclid|3"]["upgma"], refp, ptaxa, panel[0], 0),
                  xlabel="UPGMA merge distance")

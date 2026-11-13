@@ -11,7 +11,7 @@ NAMES = {
     "freq-euclid": "Word frequency, Euclidean", "freq-cosine": "Word frequency, cosine",
     "zfreq-euclid": "Standardised word frequency, Euclidean", "d2star-M0": "d2\\*, base composition removed",
     "d2star-M1": "d2\\*, dinucleotide composition removed", "presence-jaccard": "Word presence, Jaccard",
-    "karlin-delta": "Dinucleotide relative abundance, δ\\*", "original-pipeline": "Coursework pipeline as run",
+    "karlin-delta": "Dinucleotide relative abundance (Karlin–Burge δ*)", "original-pipeline": "Wrapped-count baseline",
     "cds-codon-freq": "Coding sequences: codon frequency", "cds-rscu": "Coding sequences: RSCU",
     "cds-aa-freq": "Coding sequences: amino-acid frequency", "genome-length": "Genome length only (control)",
     "reference: RdRp tree": "RdRp tree (reference)", "reference: ORF1b tree": "ORF1b tree (second alignment-based tree)",
@@ -87,7 +87,7 @@ def main():
     out.append("")
 
     # ---- Table 5 panels
-    out.append("**Table 5. Coursework panels: groupings shared with the RdRp tree restricted to the same genomes.**\n")
+    out.append("**Table 5. Small panels: groupings shared with the RdRp tree restricted to the same genomes.**\n")
     best = S["best"]["tree"]
     bn, bk = name(best)
     out.append(f"| Panel | Groupings in RdRp tree | As run, k = 1 | As run, k = 2 | As run, k = 3 | "
@@ -159,7 +159,7 @@ def main():
                    f"{r['nj_strong_recovered']:.2f} | {r['nj_genus_clans']} | {r['nj_subgenus_clans']} | "
                    f"{r['nj_nRF_orf1b']:.2f} | {r['upgma_nRF']:.2f} | {r['upgma_strong_recovered']:.2f} | "
                    f"{r['upgma_genus_clans']} | {r['upgma_subgenus_clans']} | {r['upgma_nRF_orf1b']:.2f} |")
-    sup += ["", "The coursework pipeline as run used single linkage. Its single-linkage dendrograms score nRF " +
+    sup += ["", "The wrapped-count baseline used single linkage. Its single-linkage dendrograms score nRF " +
             ", ".join(f"{B[f'original-pipeline|{k}']['single_nRF']:.2f} (k = {k})" for k in (1, 2, 3)) +
             " against the RdRp tree; the UPGMA and NJ columns above apply those tree-building rules to the same "
             "distances.", "",
