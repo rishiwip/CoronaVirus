@@ -1,0 +1,63 @@
+support	in_rdrp_tree	size	members
+1.000	1	2	BtRf-AlphaCoV YN2012, Rhinolophus bat CoV HKU2
+1.000	1	2	Camel alphaCoV, HCoV-229E
+1.000	1	2	AcCoV-JC34, Lucheng Rn rat CoV
+1.000	1	3	Bat CoV (Pipistrellus), MERS-CoV, MERS-CoV England 1
+1.000	1	2	MERS-CoV, MERS-CoV England 1
+1.000	1	3	Bat CoV BM48-31, SARS-CoV Tor2, SARS-CoV-2
+1.000	1	2	Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211)
+1.000	1	3	Feline inf. peritonitis virus, Swine enteric CoV, TGEV
+1.000	1	3	MHV (NC_001846), MHV (NC_048217), Rat CoV Parker
+0.999	1	3	IBV (NC_001451), IBV (NC_048213), Turkey CoV
+0.999	1	3	Bovine CoV, HCoV-OC43, Rabbit CoV HKU14
+0.999	1	2	Bovine CoV, HCoV-OC43
+0.998	1	6	Bat CoV (Pipistrellus), Hedgehog betaCoV (Erinaceus), MERS-CoV, MERS-CoV England 1, Pipistrellus bat CoV HKU5, Tylonycteris bat CoV HKU4
+0.997	1	2	MHV (NC_001846), MHV (NC_048217)
+0.997	1	2	Porcine CoV HKU15, Sparrow CoV HKU17
+0.991	1	2	Ferret CoV, Mink CoV
+0.985	1	4	Duck CoV, IBV (NC_001451), IBV (NC_048213), Turkey CoV
+0.985	1	24	AcCoV-JC34, Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-NL63, Lucheng Rn rat CoV, Miniopterus bat CoV HKU8, Mink CoV, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), PEDV, Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10, Scotophilus bat CoV 512, Swine enteric CoV, TGEV
+0.977	0	4	Bovine CoV, HCoV-OC43, Rabbit CoV HKU14, Rodent CoV
+0.967	1	2	HCoV-NL63, NL63-related bat CoV (NC_032107)
+0.955	1	9	BetaCoV HKU24, Bovine CoV, HCoV-HKU1, HCoV-OC43, MHV (NC_001846), MHV (NC_048217), Rabbit CoV HKU14, Rat CoV Parker, Rodent CoV
+0.947	1	5	Canada goose CoV, Duck CoV, IBV (NC_001451), IBV (NC_048213), Turkey CoV
+0.931	1	2	Swine enteric CoV, TGEV
+0.924	1	4	Magpie-robin CoV HKU18, Munia CoV HKU13, Porcine CoV HKU15, Sparrow CoV HKU17
+0.912	1	2	IBV (NC_001451), IBV (NC_048213)
+0.906	1	8	Bulbul CoV HKU11, Magpie-robin CoV HKU18, Moorhen CoV HKU21, Munia CoV HKU13, Porcine CoV HKU15, Sparrow CoV HKU17, Thrush CoV HKU12, White-eye CoV HKU16
+0.889	0	63	AcCoV-JC34, Bat CoV (Pipistrellus), Bat CoV 1A, Bat CoV BM48-31, Bat CoV CDPHE15, Bat Hp-betaCoV Zhejiang2013, Bat-CoV P.kuhlii/Italy, Beluga whale CoV SW1, BetaCoV HKU24, Bovine CoV, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Bulbul CoV HKU11, Camel alphaCoV, Canada goose CoV, Duck CoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, Hedgehog betaCoV (Erinaceus), IBV (NC_001451), IBV (NC_048213), Lucheng Rn rat CoV, MERS-CoV, MERS-CoV England 1, MHV (NC_001846), MHV (NC_048217), Magpie-robin CoV HKU18, Miniopterus bat CoV HKU8, Mink CoV, Moorhen CoV HKU21, Munia CoV HKU13, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), Night heron CoV HKU19, PEDV, Pipistrellus bat CoV HKU5, Porcine CoV HKU15, Rabbit CoV HKU14, Rat CoV Parker, Rhinolophus bat CoV HKU2, Rodent CoV, Rousettus bat CoV GCCDC1, Rousettus bat CoV HKU10, SARS-CoV Tor2, SARS-CoV-2, Scotophilus bat CoV 512, Shrew CoV (Sorex), Sparrow CoV HKU17, Swine enteric CoV, TGEV, Thrush CoV HKU12, Turkey CoV, Tylonycteris bat CoV HKU4, Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211), White-eye CoV HKU16, Wigeon CoV HKU20
+0.881	1	3	Bulbul CoV HKU11, Thrush CoV HKU12, White-eye CoV HKU16
+0.855	1	2	Magpie-robin CoV HKU18, Munia CoV HKU13
+0.843	1	62	AcCoV-JC34, Bat CoV (Pipistrellus), Bat CoV 1A, Bat CoV BM48-31, Bat CoV CDPHE15, Bat Hp-betaCoV Zhejiang2013, Bat-CoV P.kuhlii/Italy, Beluga whale CoV SW1, BetaCoV HKU24, Bovine CoV, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Bulbul CoV HKU11, Camel alphaCoV, Canada goose CoV, Duck CoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, Hedgehog betaCoV (Erinaceus), IBV (NC_001451), IBV (NC_048213), Lucheng Rn rat CoV, MERS-CoV, MERS-CoV England 1, MHV (NC_001846), MHV (NC_048217), Magpie-robin CoV HKU18, Miniopterus bat CoV HKU8, Mink CoV, Moorhen CoV HKU21, Munia CoV HKU13, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), Night heron CoV HKU19, PEDV, Pipistrellus bat CoV HKU5, Porcine CoV HKU15, Rabbit CoV HKU14, Rat CoV Parker, Rhinolophus bat CoV HKU2, Rodent CoV, Rousettus bat CoV HKU10, SARS-CoV Tor2, SARS-CoV-2, Scotophilus bat CoV 512, Shrew CoV (Sorex), Sparrow CoV HKU17, Swine enteric CoV, TGEV, Thrush CoV HKU12, Turkey CoV, Tylonycteris bat CoV HKU4, Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211), White-eye CoV HKU16, Wigeon CoV HKU20
+0.832	0	8	BetaCoV HKU24, Bovine CoV, HCoV-OC43, MHV (NC_001846), MHV (NC_048217), Rabbit CoV HKU14, Rat CoV Parker, Rodent CoV
+0.784	0	2	SARS-CoV Tor2, SARS-CoV-2
+0.780	1	10	Bulbul CoV HKU11, Magpie-robin CoV HKU18, Moorhen CoV HKU21, Munia CoV HKU13, Night heron CoV HKU19, Porcine CoV HKU15, Sparrow CoV HKU17, Thrush CoV HKU12, White-eye CoV HKU16, Wigeon CoV HKU20
+0.735	1	5	Feline inf. peritonitis virus, Ferret CoV, Mink CoV, Swine enteric CoV, TGEV
+0.716	1	2	Bat-CoV P.kuhlii/Italy, BtNv-AlphaCoV SC2013
+0.670	1	4	Bat CoV BM48-31, Bat Hp-betaCoV Zhejiang2013, SARS-CoV Tor2, SARS-CoV-2
+0.640	1	5	BetaCoV HKU24, Bovine CoV, HCoV-OC43, Rabbit CoV HKU14, Rodent CoV
+0.634	1	2	BtRf-AlphaCoV HuB2013, Rousettus bat CoV HKU10
+0.620	0	9	Bulbul CoV HKU11, Magpie-robin CoV HKU18, Moorhen CoV HKU21, Munia CoV HKU13, Night heron CoV HKU19, Porcine CoV HKU15, Sparrow CoV HKU17, Thrush CoV HKU12, White-eye CoV HKU16
+0.598	1	7	Bulbul CoV HKU11, Magpie-robin CoV HKU18, Munia CoV HKU13, Porcine CoV HKU15, Sparrow CoV HKU17, Thrush CoV HKU12, White-eye CoV HKU16
+0.589	1	2	Bat CoV 1A, Miniopterus bat CoV HKU8
+0.573	1	2	Bulbul CoV HKU11, Thrush CoV HKU12
+0.505	0	56	AcCoV-JC34, Bat CoV 1A, Bat CoV BM48-31, Bat CoV CDPHE15, Bat Hp-betaCoV Zhejiang2013, Bat-CoV P.kuhlii/Italy, Beluga whale CoV SW1, BetaCoV HKU24, Bovine CoV, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Bulbul CoV HKU11, Camel alphaCoV, Canada goose CoV, Duck CoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, IBV (NC_001451), IBV (NC_048213), Lucheng Rn rat CoV, MHV (NC_001846), MHV (NC_048217), Magpie-robin CoV HKU18, Miniopterus bat CoV HKU8, Mink CoV, Moorhen CoV HKU21, Munia CoV HKU13, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), Night heron CoV HKU19, PEDV, Porcine CoV HKU15, Rabbit CoV HKU14, Rat CoV Parker, Rhinolophus bat CoV HKU2, Rodent CoV, Rousettus bat CoV HKU10, SARS-CoV Tor2, SARS-CoV-2, Scotophilus bat CoV 512, Shrew CoV (Sorex), Sparrow CoV HKU17, Swine enteric CoV, TGEV, Thrush CoV HKU12, Turkey CoV, Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211), White-eye CoV HKU16, Wigeon CoV HKU20
+0.496	0	26	AcCoV-JC34, Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-NL63, Lucheng Rn rat CoV, Miniopterus bat CoV HKU8, Mink CoV, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), PEDV, Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10, Scotophilus bat CoV 512, Swine enteric CoV, TGEV, Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211)
+0.387	1	5	Bat CoV (Pipistrellus), MERS-CoV, MERS-CoV England 1, Pipistrellus bat CoV HKU5, Tylonycteris bat CoV HKU4
+0.384	1	17	Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, HCoV-229E, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), PEDV, Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10, Scotophilus bat CoV 512
+0.352	1	6	Beluga whale CoV SW1, Canada goose CoV, Duck CoV, IBV (NC_001451), IBV (NC_048213), Turkey CoV
+0.345	1	52	AcCoV-JC34, Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, Beluga whale CoV SW1, BetaCoV HKU24, Bovine CoV, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Bulbul CoV HKU11, Camel alphaCoV, Canada goose CoV, Duck CoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, IBV (NC_001451), IBV (NC_048213), Lucheng Rn rat CoV, MHV (NC_001846), MHV (NC_048217), Magpie-robin CoV HKU18, Miniopterus bat CoV HKU8, Mink CoV, Moorhen CoV HKU21, Munia CoV HKU13, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), Night heron CoV HKU19, PEDV, Porcine CoV HKU15, Rabbit CoV HKU14, Rat CoV Parker, Rhinolophus bat CoV HKU2, Rodent CoV, Rousettus bat CoV HKU10, Scotophilus bat CoV 512, Shrew CoV (Sorex), Sparrow CoV HKU17, Swine enteric CoV, TGEV, Thrush CoV HKU12, Turkey CoV, Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211), White-eye CoV HKU16, Wigeon CoV HKU20
+0.308	0	4	Bat CoV (Pipistrellus), MERS-CoV, MERS-CoV England 1, Tylonycteris bat CoV HKU4
+0.273	1	2	PEDV, Scotophilus bat CoV 512
+0.270	1	19	AcCoV-JC34, Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, HCoV-229E, HCoV-NL63, Lucheng Rn rat CoV, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), PEDV, Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10, Scotophilus bat CoV 512
+0.182	0	11	Bulbul CoV HKU11, Magpie-robin CoV HKU18, Moorhen CoV HKU21, Munia CoV HKU13, Night heron CoV HKU19, Porcine CoV HKU15, Shrew CoV (Sorex), Sparrow CoV HKU17, Thrush CoV HKU12, White-eye CoV HKU16, Wigeon CoV HKU20
+0.135	0	16	Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, HCoV-229E, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), PEDV, Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10, Scotophilus bat CoV 512
+0.112	0	32	AcCoV-JC34, Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, Beluga whale CoV SW1, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, Canada goose CoV, Duck CoV, Feline inf. peritonitis virus, Ferret CoV, HCoV-229E, HCoV-NL63, IBV (NC_001451), IBV (NC_048213), Lucheng Rn rat CoV, Miniopterus bat CoV HKU8, Mink CoV, NL63-related bat CoV (NC_032107), NL63-related bat CoV (NC_048216), PEDV, Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10, Scotophilus bat CoV 512, Swine enteric CoV, TGEV, Turkey CoV, Wencheng shrew CoV (NC_035191), Wencheng shrew CoV (NC_048211)
+0.109	0	4	Bat CoV 1A, BtRf-AlphaCoV YN2012, Miniopterus bat CoV HKU8, Rhinolophus bat CoV HKU2
+0.064	0	5	Bat CoV 1A, Bat CoV CDPHE15, BtRf-AlphaCoV YN2012, Miniopterus bat CoV HKU8, Rhinolophus bat CoV HKU2
+0.062	0	7	Bat CoV 1A, Bat CoV CDPHE15, BtRf-AlphaCoV YN2012, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), Rhinolophus bat CoV HKU2
+0.038	0	20	BetaCoV HKU24, Bovine CoV, Bulbul CoV HKU11, HCoV-HKU1, HCoV-OC43, MHV (NC_001846), MHV (NC_048217), Magpie-robin CoV HKU18, Moorhen CoV HKU21, Munia CoV HKU13, Night heron CoV HKU19, Porcine CoV HKU15, Rabbit CoV HKU14, Rat CoV Parker, Rodent CoV, Shrew CoV (Sorex), Sparrow CoV HKU17, Thrush CoV HKU12, White-eye CoV HKU16, Wigeon CoV HKU20
+0.033	0	12	Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10
+0.032	0	14	Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV HuB2013, BtRf-AlphaCoV YN2012, Camel alphaCoV, HCoV-229E, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), Rhinolophus bat CoV HKU2, Rousettus bat CoV HKU10
+0.022	0	9	Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV YN2012, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), Rhinolophus bat CoV HKU2
+0.020	0	10	Bat CoV 1A, Bat CoV CDPHE15, Bat-CoV P.kuhlii/Italy, BtMr-AlphaCoV SAX2011, BtNv-AlphaCoV SC2013, BtRf-AlphaCoV YN2012, HCoV-NL63, Miniopterus bat CoV HKU8, NL63-related bat CoV (NC_032107), Rhinolophus bat CoV HKU2

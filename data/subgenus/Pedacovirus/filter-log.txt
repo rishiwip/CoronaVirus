@@ -1,0 +1,8 @@
+query: "Pedacovirus"[Organism]  AND 27000:29000[SLEN] AND biomol_genomic[PROP] NOT patent[PROP]
+records matching query: 1216
+downloaded (evenly spaced by accession, cap 400): 400
+records downloaded: 400
+passed length+ambiguity (<= 1% non-ACGT): 399
+dropped for ambiguity: 1
+representatives after 0.995 identity collapse: 325
+selected by max-min spread: 35

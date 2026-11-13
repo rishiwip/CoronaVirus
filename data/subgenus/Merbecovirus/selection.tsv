@@ -1,0 +1,36 @@
+accession	length	organism	host	country	collection_date	ambiguous_fraction
+DQ648794.1	30307	Bat coronavirus (BtCoV/133/2005)				0.00000
+EF065510.1	30488	Bat coronavirus HKU5-2	bat	China: Guangdong province		0.00000
+KC545383.1	30148	Betacoronavirus Erinaceus/VMC/DEU/2012	Erinaceus europaeus	Germany	2012	0.00000
+KC869678.4	30111	Coronavirus Neoromicia/PML-PHE1/RSA/2011	Neoromicia capensis	South Africa	2011	0.00010
+KX442564.1	30498	Hypsugo bat coronavirus HKU25	Hypsugo pulveratus	China	14-Sep-2013	0.00000
+LC663783.1	29986	Merbecovirus sp.	Eptesicus japonensis	Japan: Nagano	2015-07-04	0.00000
+LC706864.1	29736	Merbecovirus sp.	Vespertilio sinensis	Japan	2016	0.00000
+MG021451.1	30113	Middle East respiratory syndrome-related coronavirus		China	17-Jul-2013	0.00007
+MG596802.1	30048	Middle East respiratory syndrome-related coronavirus	Hypsugo savii	Italy	2011	0.00000
+MG987420.1	30484	Middle East respiratory syndrome-related coronavirus		China	20-Jul-2013	0.00000
+MH002337.1	30255	Tylonycteris bat coronavirus HKU4		China	01-Nov-2012	0.00003
+MH002339.1	30280	Tylonycteris bat coronavirus HKU4		China	23-Apr-2014	0.00000
+MH002342.1	30529	Pipistrellus bat coronavirus HKU5		China	03-Jun-2013	0.00000
+MK679660.1	30172	Hedgehog coronavirus 1	Erinaceus europaeus	United Kingdom	2014	0.00000
+MK907287.1	29951	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China	Aug-2014	0.00000
+MN611520.1	30511	Pipistrellus abramus bat coronavirus HKU5-related	Pipistrellus abramus	China	Mar-2018	0.00000
+NC_009020.1	30482	Pipistrellus bat coronavirus HKU5	bat	China: Guangdong province		0.00003
+OM451213.1	29920	Erinaceus hedgehog coronavirus HKU31	amur hedgehog	China	2021	0.00104
+ON325307.1	30047	Middle East respiratory syndrome-related coronavirus	Vespertilio murinus	Switzerland	2020	0.00000
+OP866278.1	30086	Middle East respiratory syndrome-related coronavirus	Camelus dromedarius	Ethiopia	07-Dec-2017	0.00000
+OQ297692.1	30108	Middle East respiratory syndrome-related coronavirus	Ia io	China	Aug-2022	0.00000
+OQ786860.1	30326	Merbecovirus sp.			22-Jan-2020	0.00000
+PP721362.1	30195	Hedgehog coronavirus 1	Erinaceus europaeus	Poland	Oct-2021	0.00000
+PP883548.1	29626	Merbecovirus sp.	Plecotus auritus	Denmark	Sep-2020	0.00776
+PQ869635.1	30092	Hedgehog coronavirus 1	Erinaceus europaeus	France	Nov-2022	0.00000
+PV953116.1	29777	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00081
+PV953120.1	29901	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953123.1	29901	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953125.1	29901	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953127.1	29901	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953129.1	29914	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953131.1	29920	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953136.1	29901	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PV953138.1	29842	Erinaceus hedgehog coronavirus HKU31	Erinaceus amurensis	China: Beijing	2024	0.00000
+PX905642.1	30481	Betacoronavirus erinacei	Hemiechinus auritus	Italy	2022	0.00000

@@ -1,0 +1,8 @@
+query: "Sarbecovirus"[Organism] NOT txid2697049[Organism:exp] AND 29000:30500[SLEN] AND biomol_genomic[PROP] NOT patent[PROP]
+records matching query: 573
+downloaded (evenly spaced by accession, cap 400): 400
+records downloaded: 401
+passed length+ambiguity (<= 1% non-ACGT): 376
+dropped for ambiguity: 25
+representatives after 0.995 identity collapse: 197
+selected by max-min spread: 36

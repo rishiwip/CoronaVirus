@@ -1,0 +1,56 @@
+{
+ "floors": {
+  "family (65 reference genomes)": 0.12903225806451613,
+  "Merbecovirus": 0.34375,
+  "Embecovirus": 0.32142857142857145,
+  "Sarbecovirus": 0.75,
+  "Pedacovirus": 0.8620689655172413
+ },
+ "datasets": {
+  "family (65 reference genomes)": {
+   "n_genomes": 65,
+   "divergence": 0.41301178418347856,
+   "floor": 0.12903225806451613,
+   "k3_nRF": 0.8065,
+   "k8_nRF": 0.1935,
+   "k8_strong": 0.9,
+   "orf1b_vs_spike": null
+  },
+  "Merbecovirus": {
+   "n_genomes": 35,
+   "divergence": 0.09535826002845829,
+   "floor": 0.34375,
+   "k3_nRF": 0.6875,
+   "k8_nRF": 0.34375,
+   "k8_strong": 0.8,
+   "orf1b_vs_spike": 0.59375
+  },
+  "Embecovirus": {
+   "n_genomes": 31,
+   "divergence": 0.06517978944160396,
+   "floor": 0.32142857142857145,
+   "k3_nRF": 0.6428571428571429,
+   "k8_nRF": 0.10714285714285714,
+   "k8_strong": 0.9473684210526315,
+   "orf1b_vs_spike": 0.6140350877192983
+  },
+  "Sarbecovirus": {
+   "n_genomes": 35,
+   "divergence": 0.05433068281345148,
+   "floor": 0.75,
+   "k3_nRF": 0.9375,
+   "k8_nRF": 0.8125,
+   "k8_strong": 0.4,
+   "orf1b_vs_spike": 0.875
+  },
+  "Pedacovirus": {
+   "n_genomes": 32,
+   "divergence": 0.0349997026667805,
+   "floor": 0.8620689655172413,
+   "k3_nRF": 0.8620689655172413,
+   "k8_nRF": 0.896551724137931,
+   "k8_strong": 0.25,
+   "orf1b_vs_spike": 0.9
+  }
+ }
+}

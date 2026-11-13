@@ -1,0 +1,8 @@
+query: "Merbecovirus"[Organism]  AND 29000:31000[SLEN] AND biomol_genomic[PROP] NOT patent[PROP]
+records matching query: 883
+downloaded (evenly spaced by accession, cap 400): 400
+records downloaded: 400
+passed length+ambiguity (<= 1% non-ACGT): 390
+dropped for ambiguity: 10
+representatives after 0.995 identity collapse: 212
+selected by max-min spread: 35

@@ -1,0 +1,38 @@
+# secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+*api_key*
+*API_KEY*
+credentials*
+secrets*
+
+# large regenerable sequence dumps
+data/genbank/
+data/subgenus/*/downloaded.gb
+data/subgenus/*/genomes.gb
+**/*.gb
+**/*.gbff
+
+# large regenerable intermediates
+results/*.npz
+results/*.npy
+data/reftree/*.aln
+data/reftree/*.faa
+data/reftree/*.rough.aln
+data/subgenus/*/*.aln
+data/subgenus/*/*.faa
+data/subgenus/*/*.prot.aln
+data/subgenus/*/*.ckp.gz
+data/subgenus/*/*.model.gz
+data/subgenus/*/*.bionj
+data/subgenus/*/*.mldist
+data/subgenus/*/*.splits.nex
+data/subgenus/*/*.contree
+data/subgenus/*/*.log
+__pycache__/
+*.pyc
+.DS_Store
+figures/
+*.pdf

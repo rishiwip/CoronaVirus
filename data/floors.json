@@ -1,0 +1,34 @@
+{
+ "family": {
+  "columns_rdrp": 921,
+  "columns_disjoint_tail": 1734,
+  "n_taxa": 65,
+  "nRF": 0.12903225806451613,
+  "note": "RdRp tree vs a tree from the ORF1b columns outside RdRp; no shared columns",
+  "lengths": null
+ },
+ "Embecovirus": {
+  "columns": 7989,
+  "model": "GTR+F+R3",
+  "n_taxa": 31,
+  "nRF_half1_vs_half2": 0.32142857142857145
+ },
+ "Merbecovirus": {
+  "columns": 7971,
+  "model": "GTR+F+R4",
+  "n_taxa": 35,
+  "nRF_half1_vs_half2": 0.34375
+ },
+ "Pedacovirus": {
+  "columns": 8001,
+  "model": "GTR+F+R3",
+  "n_taxa": 32,
+  "nRF_half1_vs_half2": 0.8620689655172413
+ },
+ "Sarbecovirus": {
+  "columns": 8001,
+  "model": "GTR+F+R5",
+  "n_taxa": 35,
+  "nRF_half1_vs_half2": 0.75
+ }
+}

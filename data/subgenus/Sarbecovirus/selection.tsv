@@ -1,0 +1,37 @@
+accession	length	organism	host	country	collection_date	ambiguous_fraction
+AB257344.1	29632	SARS coronavirus Frankfurt 1	SARS coronavirus persistenly infected Vero E6 cells			0.00000
+GQ153542.1	29716	Bat SARS coronavirus HKU3-7				0.00000
+JX993987.1	29484	Bat coronavirus Rp/Shaanxi2011	Rhinolophus pusillus	China	Sep-2011	0.00000
+KY352407.1	29274	Severe acute respiratory syndrome-related coronavirus	Rhinolophus sp. (bat)	Kenya	Aug-2007	0.00000
+LC663958.1	29397	Sarbecovirus sp.	Rhinolophus cornutus	Japan: Niigata	2020-06	0.00000
+MG772933.1	29802	Bat SARS-like coronavirus	Rhinolophus pusillus	China	Feb-2017	0.00000
+MK211374.1	29648	Coronavirus BtRl-BetaCoV/SC2018	Rhinolophus sp.	China	Aug-2016	0.00000
+MT121216.1	29521	Pangolin coronavirus	Manis javanica	China	2019-03-29	0.00000
+MT726045.1	29246	Sarbecovirus sp.	Rhinolophus sp. (bat)	Rwanda	27-Sep-2011	0.00000
+MZ081377.1	29734	Betacoronavirus sp. RmYN07	Rhinolophus malayanus	China	03-Jun-2020	0.00000
+NC_014470.1	29276	Bat coronavirus BM48-31/BGR/2008	Rhinolophus blasii	Bulgaria	2008	0.00000
+OK017794.1	29167	Sarbecovirus sp.	Rhinolophus ferrumequinum	China: Liaoning	Sep-2020	0.00000
+OK017801.1	29552	Sarbecovirus sp.	Rhinolophus sp.	China: Hubei	Jul-2020	0.00000
+OK017805.1	29571	Sarbecovirus sp.	Rhinolophus pusillus	China: Hunan	Mar-2021	0.00000
+OK017829.1	29392	Sarbecovirus sp.	Rhinolophus sinicus	China: Guizhou	Mar-2021	0.00000
+OK017832.1	29517	Sarbecovirus sp.	Rhinolophus sinicus	China: Hunan	Feb-2021	0.00000
+OK017834.1	29528	Sarbecovirus sp.	Rhinolophus sinicus	China: Hunan	Mar-2021	0.00000
+OK017841.1	29350	Sarbecovirus sp.	Rhinolophus sinicus	China: Jiangxi	Jul-2021	0.00000
+OK017859.1	29507	Sarbecovirus sp.	Rhinolophus siamensis	China: Guangxi	Sep-2019	0.00000
+OK287355.1	29694	Sarbecovirus sp.	Rhinolophus blythi	China	Mar-2020	0.00000
+OL674078.1	29816	Severe acute respiratory syndrome-related coronavirus	Rhinolophus stheno	China: Yunnan, Puer	2015-05-29	0.00000
+OP288969.1	30358	Pangolin coronavirus	Manis javanica	China: Guangxi	2020	0.00000
+OP963575.1	29756	Bat SARS-like virus BtSY1	Rhinolophus thomasi	China: Yunnan	2018	0.00000
+OQ297704.1	29696	Severe acute respiratory syndrome-related coronavirus	Rhinolophus sp.	China	Dec-2021	0.00003
+OQ401252.2	29217	Sarbecovirus sp. RhGB08	Rhinolophus hipposideros	United Kingdom	2021-07-08	0.00777
+OR233293.1	29688	Horseshoe bat sarbecovirus	Rhinolophus thomasi	Viet Nam	28-Feb-2022	0.00000
+OR233300.1	29671	Horseshoe bat sarbecovirus	Rhinolophus thomasi	Viet Nam	04-Nov-2022	0.00000
+OR233301.1	29693	Horseshoe bat sarbecovirus	Rhinolophus thomasi	Viet Nam	03-Jul-2022	0.00000
+OR233323.1	29751	Horseshoe bat sarbecovirus	Rhinolophus affinis	Viet Nam	04-Nov-2022	0.00003
+OY757873.1	29848	Severe acute respiratory syndrome-related coronavirus				0.00003
+PQ611137.1	29259	Sarbecovirus sp.	Rhinolophus hipposideros	Spain: Murcia	2022	0.00000
+PV839359.1	29845	Severe acute respiratory syndrome-related coronavirus	Rhinolophus pusillus	Thailand: Ratchaburi	26-Mar-2021	0.00000
+PX802980.1	29805	Pangolin coronavirus	pangolin	China	2018	0.00000
+PZ113260.1	29805	Severe acute respiratory syndrome-related coronavirus	Rhinolophus acuminatus	Thailand: Chachoengsao	22-Jul-2020	0.00000
+PZ113261.1	29687	Severe acute respiratory syndrome-related coronavirus	Rhinolophus acuminatus	Thailand: Chachoengsao	22-Jul-2020	0.00000
+NC_045512.2	29903	Severe acute respiratory syndrome coronavirus 2	Homo sapiens	China	Dec-2019	0.00000

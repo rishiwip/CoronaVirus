@@ -1,0 +1,2758 @@
+{
+ "n_genomes": 65,
+ "n_genus_labelled": 61,
+ "n_subgenus_labelled": 58,
+ "n_subgenus_scored_nn": 52,
+ "subgenera_multi": {
+  "Buldecovirus": 8,
+  "Decacovirus": 2,
+  "Duvinacovirus": 2,
+  "Embecovirus": 8,
+  "Igacovirus": 4,
+  "Luchacovirus": 2,
+  "Merbecovirus": 5,
+  "Minacovirus": 2,
+  "Minunacovirus": 2,
+  "Nobecovirus": 2,
+  "Nyctacovirus": 2,
+  "Pedacovirus": 2,
+  "Rhinacovirus": 2,
+  "Sarbecovirus": 3,
+  "Setracovirus": 3,
+  "Tegacovirus": 3
+ },
+ "genus_counts": {
+  "Alphacoronavirus": 26,
+  "Betacoronavirus": 19,
+  "Gammacoronavirus": 6,
+  "Deltacoronavirus": 10
+ },
+ "host_counts": {
+  "Artiodactyla": 7,
+  "Aves": 14,
+  "Carnivora": 3,
+  "Chiroptera": 21,
+  "Eulipotyphla": 4,
+  "Lagomorpha": 1,
+  "Primates": 8,
+  "Rodentia": 7
+ },
+ "reference": {
+  "splits": 62,
+  "strong_splits": 50,
+  "genus_clans": 4,
+  "subgenus_clans": 16,
+  "n_subgenera_multi": 16,
+  "nRF_rdrp_vs_orf1b": 0.0967741935483871,
+  "strong_rdrp_splits_in_orf1b": 1.0,
+  "spearman_patristic_rdrp_vs_orf1b": 0.9715208572728995,
+  "orf1b_genus_clans": 4,
+  "orf1b_subgenus_clans": 16
+ },
+ "unclassified_placement": {
+  "NC_048212": {
+   "nearest_classified": "NC_009021",
+   "nearest_genus": "Betacoronavirus",
+   "nearest_subgenus": "Nobecovirus",
+   "inside_genus_clan": true
+  },
+  "NC_034440": {
+   "nearest_classified": "NC_019843",
+   "nearest_genus": "Betacoronavirus",
+   "nearest_subgenus": "Merbecovirus",
+   "inside_genus_clan": true
+  },
+  "NC_046954": {
+   "nearest_classified": "NC_017083",
+   "nearest_genus": "Betacoronavirus",
+   "nearest_subgenus": "Embecovirus",
+   "inside_genus_clan": true
+  },
+  "NC_046955": {
+   "nearest_classified": "NC_038861",
+   "nearest_genus": "Alphacoronavirus",
+   "nearest_subgenus": "Tegacovirus",
+   "inside_genus_clan": true
+  }
+ },
+ "chance": {
+  "nn_genus": 0.3038251366120219,
+  "nn_subgenus": 0.06072874493927126,
+  "nn_host": 0.18269230769230768
+ },
+ "benchmark": {
+  "freq-euclid|1": {
+   "spearman": 0.30701568440636196,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3168555775475525,
+   "nn_genus": 0.7540983606557377,
+   "nn_subgenus": 0.5,
+   "nn_top3": 0.47692307692307695,
+   "nn_host": 0.4307692307692308,
+   "upgma_nRF": 0.8387096774193549,
+   "upgma_nRF_orf1b": 0.8225806451612904,
+   "upgma_strong_recovered": 0.2,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 3,
+   "nj_nRF": 0.8387096774193549,
+   "nj_nRF_orf1b": 0.8225806451612904,
+   "nj_strong_recovered": 0.18,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 2
+  },
+  "freq-cosine|1": {
+   "spearman": 0.3154733181282917,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.32435674342209664,
+   "nn_genus": 0.7377049180327869,
+   "nn_subgenus": 0.5,
+   "nn_top3": 0.46153846153846156,
+   "nn_host": 0.4153846153846154,
+   "upgma_nRF": 0.8387096774193549,
+   "upgma_nRF_orf1b": 0.8225806451612904,
+   "upgma_strong_recovered": 0.2,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 3,
+   "nj_nRF": 0.9032258064516129,
+   "nj_nRF_orf1b": 0.9032258064516129,
+   "nj_strong_recovered": 0.12,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 1
+  },
+  "zfreq-euclid|1": {
+   "spearman": 0.33124966229243025,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.34329510790346934,
+   "nn_genus": 0.7377049180327869,
+   "nn_subgenus": 0.4230769230769231,
+   "nn_top3": 0.46153846153846156,
+   "nn_host": 0.38461538461538464,
+   "upgma_nRF": 0.8548387096774194,
+   "upgma_nRF_orf1b": 0.8387096774193549,
+   "upgma_strong_recovered": 0.18,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 2,
+   "nj_nRF": 0.8225806451612904,
+   "nj_nRF_orf1b": 0.8064516129032258,
+   "nj_strong_recovered": 0.2,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 2
+  },
+  "freq-euclid|2": {
+   "spearman": 0.3837134967120551,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3833935926319396,
+   "nn_genus": 0.8360655737704918,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6,
+   "nn_host": 0.5076923076923077,
+   "upgma_nRF": 0.7580645161290323,
+   "upgma_nRF_orf1b": 0.7419354838709677,
+   "upgma_strong_recovered": 0.28,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 5,
+   "nj_nRF": 0.8064516129032258,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.22,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4
+  },
+  "freq-cosine|2": {
+   "spearman": 0.40107256324219326,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.399525999922444,
+   "nn_genus": 0.8360655737704918,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6,
+   "nn_host": 0.5076923076923077,
+   "upgma_nRF": 0.7580645161290323,
+   "upgma_nRF_orf1b": 0.7419354838709677,
+   "upgma_strong_recovered": 0.28,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 5,
+   "nj_nRF": 0.8548387096774194,
+   "nj_nRF_orf1b": 0.8548387096774194,
+   "nj_strong_recovered": 0.18,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 3
+  },
+  "zfreq-euclid|2": {
+   "spearman": 0.3934806450423942,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.40486600670406536,
+   "nn_genus": 0.819672131147541,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6307692307692307,
+   "nn_host": 0.5230769230769231,
+   "upgma_nRF": 0.7741935483870968,
+   "upgma_nRF_orf1b": 0.7580645161290323,
+   "upgma_strong_recovered": 0.28,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 4,
+   "nj_nRF": 0.8064516129032258,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.22,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 3
+  },
+  "d2star-M0|2": {
+   "spearman": 0.30662605188073716,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3149072802364489,
+   "nn_genus": 0.819672131147541,
+   "nn_subgenus": 0.5961538461538461,
+   "nn_top3": 0.5692307692307692,
+   "nn_host": 0.5076923076923077,
+   "upgma_nRF": 0.7580645161290323,
+   "upgma_nRF_orf1b": 0.7419354838709677,
+   "upgma_strong_recovered": 0.24,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 4,
+   "nj_nRF": 0.8709677419354839,
+   "nj_nRF_orf1b": 0.8709677419354839,
+   "nj_strong_recovered": 0.14,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 3
+  },
+  "karlin-delta|2": {
+   "spearman": 0.3033961180044794,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.2953690257630671,
+   "nn_genus": 0.819672131147541,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6,
+   "nn_host": 0.49230769230769234,
+   "upgma_nRF": 0.7419354838709677,
+   "upgma_nRF_orf1b": 0.7258064516129032,
+   "upgma_strong_recovered": 0.26,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 4,
+   "nj_nRF": 0.7903225806451613,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.24,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 3
+  },
+  "freq-euclid|3": {
+   "spearman": 0.3968648122660617,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3949108195984698,
+   "nn_genus": 0.8524590163934426,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6153846153846154,
+   "nn_host": 0.5230769230769231,
+   "upgma_nRF": 0.7258064516129032,
+   "upgma_nRF_orf1b": 0.7096774193548387,
+   "upgma_strong_recovered": 0.32,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 5,
+   "nj_nRF": 0.8064516129032258,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.22,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4
+  },
+  "freq-cosine|3": {
+   "spearman": 0.4232015968440764,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4194025033645408,
+   "nn_genus": 0.8524590163934426,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6307692307692307,
+   "nn_host": 0.5230769230769231,
+   "upgma_nRF": 0.7419354838709677,
+   "upgma_nRF_orf1b": 0.7258064516129032,
+   "upgma_strong_recovered": 0.3,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 5,
+   "nj_nRF": 0.8387096774193549,
+   "nj_nRF_orf1b": 0.8387096774193549,
+   "nj_strong_recovered": 0.2,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 3
+  },
+  "zfreq-euclid|3": {
+   "spearman": 0.3961733818533434,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.40799446695650443,
+   "nn_genus": 0.8524590163934426,
+   "nn_subgenus": 0.6538461538461539,
+   "nn_top3": 0.6923076923076923,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.7258064516129032,
+   "upgma_nRF_orf1b": 0.7096774193548387,
+   "upgma_strong_recovered": 0.32,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 5,
+   "nj_nRF": 0.7419354838709677,
+   "nj_nRF_orf1b": 0.7258064516129032,
+   "nj_strong_recovered": 0.3,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 5
+  },
+  "d2star-M0|3": {
+   "spearman": 0.3475039123405294,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3585855185446728,
+   "nn_genus": 0.9180327868852459,
+   "nn_subgenus": 0.7307692307692307,
+   "nn_top3": 0.6923076923076923,
+   "nn_host": 0.5230769230769231,
+   "upgma_nRF": 0.7096774193548387,
+   "upgma_nRF_orf1b": 0.6935483870967742,
+   "upgma_strong_recovered": 0.32,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 7,
+   "nj_nRF": 0.7903225806451613,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.26,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 5
+  },
+  "d2star-M1|3": {
+   "spearman": 0.4928968583341481,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5142473909773284,
+   "nn_genus": 0.8852459016393442,
+   "nn_subgenus": 0.7307692307692307,
+   "nn_top3": 0.6307692307692307,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.6774193548387096,
+   "upgma_nRF_orf1b": 0.6612903225806451,
+   "upgma_strong_recovered": 0.38,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 9,
+   "nj_nRF": 0.7419354838709677,
+   "nj_nRF_orf1b": 0.7258064516129032,
+   "nj_strong_recovered": 0.28,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 5
+  },
+  "freq-euclid|4": {
+   "spearman": 0.40417331080473806,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.40241715409903783,
+   "nn_genus": 0.9180327868852459,
+   "nn_subgenus": 0.7307692307692307,
+   "nn_top3": 0.7076923076923077,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.6451612903225806,
+   "upgma_nRF_orf1b": 0.6612903225806451,
+   "upgma_strong_recovered": 0.38,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 6,
+   "nj_nRF": 0.8064516129032258,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.22,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4
+  },
+  "freq-cosine|4": {
+   "spearman": 0.44139612456527405,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4370709366985196,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.7307692307692307,
+   "nn_top3": 0.7076923076923077,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.6935483870967742,
+   "upgma_nRF_orf1b": 0.6935483870967742,
+   "upgma_strong_recovered": 0.34,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 6,
+   "nj_nRF": 0.8225806451612904,
+   "nj_nRF_orf1b": 0.8225806451612904,
+   "nj_strong_recovered": 0.22,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4
+  },
+  "zfreq-euclid|4": {
+   "spearman": 0.4016755496092354,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.411953974532062,
+   "nn_genus": 0.9016393442622951,
+   "nn_subgenus": 0.7307692307692307,
+   "nn_top3": 0.7230769230769231,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.6451612903225806,
+   "upgma_nRF_orf1b": 0.6290322580645161,
+   "upgma_strong_recovered": 0.42,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.7258064516129032,
+   "nj_nRF_orf1b": 0.7096774193548387,
+   "nj_strong_recovered": 0.32,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 6
+  },
+  "d2star-M0|4": {
+   "spearman": 0.36799365805853074,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3821113279907129,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.7884615384615384,
+   "nn_top3": 0.7076923076923077,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.6290322580645161,
+   "upgma_nRF_orf1b": 0.6129032258064516,
+   "upgma_strong_recovered": 0.4,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 7,
+   "nj_nRF": 0.7096774193548387,
+   "nj_nRF_orf1b": 0.7096774193548387,
+   "nj_strong_recovered": 0.32,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 7
+  },
+  "d2star-M1|4": {
+   "spearman": 0.502215060288102,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5144665668572445,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.7692307692307693,
+   "nn_top3": 0.6923076923076923,
+   "nn_host": 0.6153846153846154,
+   "upgma_nRF": 0.5806451612903226,
+   "upgma_nRF_orf1b": 0.5645161290322581,
+   "upgma_strong_recovered": 0.48,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 9,
+   "nj_nRF": 0.5967741935483871,
+   "nj_nRF_orf1b": 0.5806451612903226,
+   "nj_strong_recovered": 0.46,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 10
+  },
+  "freq-euclid|5": {
+   "spearman": 0.4154156858145325,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4128926255548072,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.7692307692307693,
+   "nn_top3": 0.7230769230769231,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.5967741935483871,
+   "upgma_nRF_orf1b": 0.6129032258064516,
+   "upgma_strong_recovered": 0.42,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.7419354838709677,
+   "nj_nRF_orf1b": 0.7258064516129032,
+   "nj_strong_recovered": 0.3,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 5
+  },
+  "freq-cosine|5": {
+   "spearman": 0.4689820324371022,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4622761868917563,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.75,
+   "nn_top3": 0.7230769230769231,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.6290322580645161,
+   "upgma_nRF_orf1b": 0.6290322580645161,
+   "upgma_strong_recovered": 0.42,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.7741935483870968,
+   "nj_nRF_orf1b": 0.7741935483870968,
+   "nj_strong_recovered": 0.26,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 5
+  },
+  "zfreq-euclid|5": {
+   "spearman": 0.4317383828195938,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.44010783519433205,
+   "nn_genus": 0.9180327868852459,
+   "nn_subgenus": 0.8269230769230769,
+   "nn_top3": 0.7692307692307693,
+   "nn_host": 0.5846153846153846,
+   "upgma_nRF": 0.5161290322580645,
+   "upgma_nRF_orf1b": 0.532258064516129,
+   "upgma_strong_recovered": 0.52,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 10,
+   "nj_nRF": 0.6774193548387096,
+   "nj_nRF_orf1b": 0.6612903225806451,
+   "nj_strong_recovered": 0.36,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 7
+  },
+  "d2star-M0|5": {
+   "spearman": 0.3866884757081778,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.40397123566273013,
+   "nn_genus": 0.9672131147540983,
+   "nn_subgenus": 0.8269230769230769,
+   "nn_top3": 0.7538461538461538,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.5806451612903226,
+   "upgma_nRF_orf1b": 0.5483870967741935,
+   "upgma_strong_recovered": 0.46,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.6129032258064516,
+   "nj_nRF_orf1b": 0.6129032258064516,
+   "nj_strong_recovered": 0.44,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 8
+  },
+  "d2star-M1|5": {
+   "spearman": 0.5183521521460013,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5232773286833835,
+   "nn_genus": 0.9672131147540983,
+   "nn_subgenus": 0.8653846153846154,
+   "nn_top3": 0.7384615384615385,
+   "nn_host": 0.6307692307692307,
+   "upgma_nRF": 0.4838709677419355,
+   "upgma_nRF_orf1b": 0.46774193548387094,
+   "upgma_strong_recovered": 0.6,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 10,
+   "nj_nRF": 0.532258064516129,
+   "nj_nRF_orf1b": 0.5,
+   "nj_strong_recovered": 0.54,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 11
+  },
+  "presence-jaccard|5": {
+   "spearman": -0.036710301942190826,
+   "mantel_p": 0.694,
+   "spearman_orf1b": -0.021192049527463706,
+   "nn_genus": 0.4918032786885246,
+   "nn_subgenus": 0.1346153846153846,
+   "nn_top3": 0.12307692307692308,
+   "nn_host": 0.23076923076923078,
+   "upgma_nRF": 0.9516129032258065,
+   "upgma_nRF_orf1b": 0.9516129032258065,
+   "upgma_strong_recovered": 0.06,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 0,
+   "nj_nRF": 0.9193548387096774,
+   "nj_nRF_orf1b": 0.9193548387096774,
+   "nj_strong_recovered": 0.1,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 1
+  },
+  "freq-euclid|6": {
+   "spearman": 0.43779981164651993,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.43781695505626306,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.8076923076923077,
+   "nn_top3": 0.7538461538461538,
+   "nn_host": 0.5538461538461539,
+   "upgma_nRF": 0.5483870967741935,
+   "upgma_nRF_orf1b": 0.5645161290322581,
+   "upgma_strong_recovered": 0.48,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.6935483870967742,
+   "nj_nRF_orf1b": 0.6774193548387096,
+   "nj_strong_recovered": 0.34,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 7
+  },
+  "freq-cosine|6": {
+   "spearman": 0.5140045348959333,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5050505583902988,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.7884615384615384,
+   "nn_top3": 0.7076923076923077,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.6290322580645161,
+   "upgma_nRF_orf1b": 0.6129032258064516,
+   "upgma_strong_recovered": 0.42,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.7096774193548387,
+   "nj_nRF_orf1b": 0.6935483870967742,
+   "nj_strong_recovered": 0.32,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 6
+  },
+  "zfreq-euclid|6": {
+   "spearman": 0.49123008845498034,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4971973298739276,
+   "nn_genus": 0.9016393442622951,
+   "nn_subgenus": 0.7884615384615384,
+   "nn_top3": 0.7692307692307693,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.5483870967741935,
+   "upgma_nRF_orf1b": 0.5645161290322581,
+   "upgma_strong_recovered": 0.46,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.6129032258064516,
+   "nj_nRF_orf1b": 0.5967741935483871,
+   "nj_strong_recovered": 0.44,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 9
+  },
+  "d2star-M0|6": {
+   "spearman": 0.3973650061828823,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.42655218400052614,
+   "nn_genus": 0.9672131147540983,
+   "nn_subgenus": 0.8461538461538461,
+   "nn_top3": 0.7384615384615385,
+   "nn_host": 0.6461538461538462,
+   "upgma_nRF": 0.5806451612903226,
+   "upgma_nRF_orf1b": 0.5483870967741935,
+   "upgma_strong_recovered": 0.46,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 9,
+   "nj_nRF": 0.5483870967741935,
+   "nj_nRF_orf1b": 0.5483870967741935,
+   "nj_strong_recovered": 0.52,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 8
+  },
+  "d2star-M1|6": {
+   "spearman": 0.5359057822416785,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5373808288993296,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.8653846153846154,
+   "nn_top3": 0.7384615384615385,
+   "nn_host": 0.6923076923076923,
+   "upgma_nRF": 0.45161290322580644,
+   "upgma_nRF_orf1b": 0.43548387096774194,
+   "upgma_strong_recovered": 0.64,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 13,
+   "nj_nRF": 0.43548387096774194,
+   "nj_nRF_orf1b": 0.4032258064516129,
+   "nj_strong_recovered": 0.66,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 13
+  },
+  "presence-jaccard|6": {
+   "spearman": 0.03909949054940934,
+   "mantel_p": 0.302,
+   "spearman_orf1b": 0.06248739284754266,
+   "nn_genus": 0.5573770491803278,
+   "nn_subgenus": 0.5,
+   "nn_top3": 0.38461538461538464,
+   "nn_host": 0.49230769230769234,
+   "upgma_nRF": 0.7903225806451613,
+   "upgma_nRF_orf1b": 0.7903225806451613,
+   "upgma_strong_recovered": 0.24,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 3,
+   "nj_nRF": 0.6774193548387096,
+   "nj_nRF_orf1b": 0.6935483870967742,
+   "nj_strong_recovered": 0.32,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 6
+  },
+  "freq-euclid|7": {
+   "spearman": 0.48351031343583006,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4867376496641273,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.8269230769230769,
+   "nn_top3": 0.7846153846153846,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.5,
+   "upgma_nRF_orf1b": 0.5161290322580645,
+   "upgma_strong_recovered": 0.54,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 10,
+   "nj_nRF": 0.6129032258064516,
+   "nj_nRF_orf1b": 0.5967741935483871,
+   "nj_strong_recovered": 0.44,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 9
+  },
+  "freq-cosine|7": {
+   "spearman": 0.5660091856992385,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.550367179139404,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.8269230769230769,
+   "nn_top3": 0.7538461538461538,
+   "nn_host": 0.5846153846153846,
+   "upgma_nRF": 0.5806451612903226,
+   "upgma_nRF_orf1b": 0.5645161290322581,
+   "upgma_strong_recovered": 0.46,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.6451612903225806,
+   "nj_nRF_orf1b": 0.6290322580645161,
+   "nj_strong_recovered": 0.4,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 8
+  },
+  "zfreq-euclid|7": {
+   "spearman": 0.5225829125757044,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5199022972329075,
+   "nn_genus": 0.8852459016393442,
+   "nn_subgenus": 0.8076923076923077,
+   "nn_top3": 0.676923076923077,
+   "nn_host": 0.6153846153846154,
+   "upgma_nRF": 0.5806451612903226,
+   "upgma_nRF_orf1b": 0.5645161290322581,
+   "upgma_strong_recovered": 0.46,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 8,
+   "nj_nRF": 0.5645161290322581,
+   "nj_nRF_orf1b": 0.5483870967741935,
+   "nj_strong_recovered": 0.5,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 10
+  },
+  "d2star-M0|7": {
+   "spearman": 0.4090496440928925,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.44968011458881235,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.8461538461538461,
+   "nn_top3": 0.7846153846153846,
+   "nn_host": 0.676923076923077,
+   "upgma_nRF": 0.5,
+   "upgma_nRF_orf1b": 0.4838709677419355,
+   "upgma_strong_recovered": 0.56,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 11,
+   "nj_nRF": 0.3870967741935484,
+   "nj_nRF_orf1b": 0.4032258064516129,
+   "nj_strong_recovered": 0.68,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 14
+  },
+  "d2star-M1|7": {
+   "spearman": 0.5587169944690368,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5584632263993148,
+   "nn_genus": 0.9672131147540983,
+   "nn_subgenus": 0.9230769230769231,
+   "nn_top3": 0.8307692307692308,
+   "nn_host": 0.7076923076923077,
+   "upgma_nRF": 0.4032258064516129,
+   "upgma_nRF_orf1b": 0.4032258064516129,
+   "upgma_strong_recovered": 0.68,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 14,
+   "nj_nRF": 0.27419354838709675,
+   "nj_nRF_orf1b": 0.27419354838709675,
+   "nj_strong_recovered": 0.82,
+   "nj_genus_clans": 2,
+   "nj_subgenus_clans": 15
+  },
+  "presence-jaccard|7": {
+   "spearman": 0.3354496324379641,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3585896104931528,
+   "nn_genus": 0.8032786885245902,
+   "nn_subgenus": 0.8269230769230769,
+   "nn_top3": 0.676923076923077,
+   "nn_host": 0.6615384615384615,
+   "upgma_nRF": 0.5483870967741935,
+   "upgma_nRF_orf1b": 0.5483870967741935,
+   "upgma_strong_recovered": 0.5,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 9,
+   "nj_nRF": 0.5161290322580645,
+   "nj_nRF_orf1b": 0.5,
+   "nj_strong_recovered": 0.56,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 11
+  },
+  "freq-euclid|8": {
+   "spearman": 0.5274759252173956,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5394190731048012,
+   "nn_genus": 0.9180327868852459,
+   "nn_subgenus": 0.9230769230769231,
+   "nn_top3": 0.8461538461538461,
+   "nn_host": 0.5692307692307692,
+   "upgma_nRF": 0.45161290322580644,
+   "upgma_nRF_orf1b": 0.45161290322580644,
+   "upgma_strong_recovered": 0.6,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 12,
+   "nj_nRF": 0.532258064516129,
+   "nj_nRF_orf1b": 0.5161290322580645,
+   "nj_strong_recovered": 0.52,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 11
+  },
+  "freq-cosine|8": {
+   "spearman": 0.5862838240300999,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5685108447001767,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.8653846153846154,
+   "nn_top3": 0.7692307692307693,
+   "nn_host": 0.5538461538461539,
+   "upgma_nRF": 0.5161290322580645,
+   "upgma_nRF_orf1b": 0.5,
+   "upgma_strong_recovered": 0.56,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 10,
+   "nj_nRF": 0.5483870967741935,
+   "nj_nRF_orf1b": 0.532258064516129,
+   "nj_strong_recovered": 0.5,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 11
+  },
+  "zfreq-euclid|8": {
+   "spearman": 0.4577056533087288,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.44247397244754283,
+   "nn_genus": 0.8688524590163934,
+   "nn_subgenus": 0.6730769230769231,
+   "nn_top3": 0.5846153846153846,
+   "nn_host": 0.4307692307692308,
+   "upgma_nRF": 0.6612903225806451,
+   "upgma_nRF_orf1b": 0.6451612903225806,
+   "upgma_strong_recovered": 0.38,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 7,
+   "nj_nRF": 0.43548387096774194,
+   "nj_nRF_orf1b": 0.43548387096774194,
+   "nj_strong_recovered": 0.62,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 12
+  },
+  "d2star-M0|8": {
+   "spearman": 0.4380364123035915,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4821457094883333,
+   "nn_genus": 0.9508196721311475,
+   "nn_subgenus": 0.9230769230769231,
+   "nn_top3": 0.8307692307692308,
+   "nn_host": 0.676923076923077,
+   "upgma_nRF": 0.4032258064516129,
+   "upgma_nRF_orf1b": 0.4032258064516129,
+   "upgma_strong_recovered": 0.66,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 15,
+   "nj_nRF": 0.27419354838709675,
+   "nj_nRF_orf1b": 0.2903225806451613,
+   "nj_strong_recovered": 0.8,
+   "nj_genus_clans": 3,
+   "nj_subgenus_clans": 16
+  },
+  "d2star-M1|8": {
+   "spearman": 0.585793415298461,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5842338250675589,
+   "nn_genus": 0.9836065573770492,
+   "nn_subgenus": 0.9807692307692307,
+   "nn_top3": 0.9076923076923077,
+   "nn_host": 0.676923076923077,
+   "upgma_nRF": 0.3064516129032258,
+   "upgma_nRF_orf1b": 0.2903225806451613,
+   "upgma_strong_recovered": 0.76,
+   "upgma_genus_clans": 3,
+   "upgma_subgenus_clans": 15,
+   "nj_nRF": 0.1935483870967742,
+   "nj_nRF_orf1b": 0.1935483870967742,
+   "nj_strong_recovered": 0.9,
+   "nj_genus_clans": 4,
+   "nj_subgenus_clans": 16
+  },
+  "presence-jaccard|8": {
+   "spearman": 0.6187458251610103,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.6145492902100302,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.8846153846153846,
+   "nn_top3": 0.8,
+   "nn_host": 0.6307692307692307,
+   "upgma_nRF": 0.5,
+   "upgma_nRF_orf1b": 0.4838709677419355,
+   "upgma_strong_recovered": 0.56,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 11,
+   "nj_nRF": 0.41935483870967744,
+   "nj_nRF_orf1b": 0.3870967741935484,
+   "nj_strong_recovered": 0.66,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 12
+  },
+  "freq-euclid|9": {
+   "spearman": 0.5081312208534697,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5279140716190212,
+   "nn_genus": 0.9016393442622951,
+   "nn_subgenus": 0.9230769230769231,
+   "nn_top3": 0.8307692307692308,
+   "nn_host": 0.5846153846153846,
+   "upgma_nRF": 0.45161290322580644,
+   "upgma_nRF_orf1b": 0.43548387096774194,
+   "upgma_strong_recovered": 0.62,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 12,
+   "nj_nRF": 0.2903225806451613,
+   "nj_nRF_orf1b": 0.3225806451612903,
+   "nj_strong_recovered": 0.74,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 13
+  },
+  "freq-cosine|9": {
+   "spearman": 0.6060024310144445,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5873700022546731,
+   "nn_genus": 0.9180327868852459,
+   "nn_subgenus": 0.8653846153846154,
+   "nn_top3": 0.7692307692307693,
+   "nn_host": 0.5384615384615384,
+   "upgma_nRF": 0.5,
+   "upgma_nRF_orf1b": 0.4838709677419355,
+   "upgma_strong_recovered": 0.58,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 12,
+   "nj_nRF": 0.3064516129032258,
+   "nj_nRF_orf1b": 0.3387096774193548,
+   "nj_strong_recovered": 0.74,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 14
+  },
+  "zfreq-euclid|9": {
+   "spearman": 0.35736438930816633,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.3355757716041234,
+   "nn_genus": 0.6721311475409836,
+   "nn_subgenus": 0.5192307692307693,
+   "nn_top3": 0.4307692307692308,
+   "nn_host": 0.26153846153846155,
+   "upgma_nRF": 0.7419354838709677,
+   "upgma_nRF_orf1b": 0.7419354838709677,
+   "upgma_strong_recovered": 0.3,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 4,
+   "nj_nRF": 0.3548387096774194,
+   "nj_nRF_orf1b": 0.3709677419354839,
+   "nj_strong_recovered": 0.7,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 13
+  },
+  "d2star-M0|9": {
+   "spearman": 0.4846077223539981,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5237309622941531,
+   "nn_genus": 1.0,
+   "nn_subgenus": 0.9615384615384616,
+   "nn_top3": 0.8461538461538461,
+   "nn_host": 0.6923076923076923,
+   "upgma_nRF": 0.3225806451612903,
+   "upgma_nRF_orf1b": 0.3064516129032258,
+   "upgma_strong_recovered": 0.76,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 16,
+   "nj_nRF": 0.25806451612903225,
+   "nj_nRF_orf1b": 0.24193548387096775,
+   "nj_strong_recovered": 0.84,
+   "nj_genus_clans": 3,
+   "nj_subgenus_clans": 16
+  },
+  "d2star-M1|9": {
+   "spearman": 0.6060725661758819,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.6006560101226127,
+   "nn_genus": 1.0,
+   "nn_subgenus": 0.9807692307692307,
+   "nn_top3": 0.9230769230769231,
+   "nn_host": 0.676923076923077,
+   "upgma_nRF": 0.22580645161290322,
+   "upgma_nRF_orf1b": 0.20967741935483872,
+   "upgma_strong_recovered": 0.86,
+   "upgma_genus_clans": 3,
+   "upgma_subgenus_clans": 16,
+   "nj_nRF": 0.25806451612903225,
+   "nj_nRF_orf1b": 0.25806451612903225,
+   "nj_strong_recovered": 0.82,
+   "nj_genus_clans": 4,
+   "nj_subgenus_clans": 15
+  },
+  "presence-jaccard|9": {
+   "spearman": 0.6310365293547809,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.6146103704796093,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.9038461538461539,
+   "nn_top3": 0.8,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.45161290322580644,
+   "upgma_nRF_orf1b": 0.41935483870967744,
+   "upgma_strong_recovered": 0.64,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 14,
+   "nj_nRF": 0.22580645161290322,
+   "nj_nRF_orf1b": 0.24193548387096775,
+   "nj_strong_recovered": 0.84,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 16
+  },
+  "freq-euclid|10": {
+   "spearman": 0.46838964468709793,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4924922626628538,
+   "nn_genus": 0.8688524590163934,
+   "nn_subgenus": 0.8846153846153846,
+   "nn_top3": 0.7692307692307693,
+   "nn_host": 0.5538461538461539,
+   "upgma_nRF": 0.46774193548387094,
+   "upgma_nRF_orf1b": 0.45161290322580644,
+   "upgma_strong_recovered": 0.6,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 13,
+   "nj_nRF": 0.1935483870967742,
+   "nj_nRF_orf1b": 0.20967741935483872,
+   "nj_strong_recovered": 0.86,
+   "nj_genus_clans": 2,
+   "nj_subgenus_clans": 16
+  },
+  "freq-cosine|10": {
+   "spearman": 0.6480248100983325,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.627914350319444,
+   "nn_genus": 0.9836065573770492,
+   "nn_subgenus": 0.9230769230769231,
+   "nn_top3": 0.8307692307692308,
+   "nn_host": 0.6461538461538462,
+   "upgma_nRF": 0.3548387096774194,
+   "upgma_nRF_orf1b": 0.3548387096774194,
+   "upgma_strong_recovered": 0.72,
+   "upgma_genus_clans": 2,
+   "upgma_subgenus_clans": 15,
+   "nj_nRF": 0.1935483870967742,
+   "nj_nRF_orf1b": 0.20967741935483872,
+   "nj_strong_recovered": 0.86,
+   "nj_genus_clans": 2,
+   "nj_subgenus_clans": 16
+  },
+  "zfreq-euclid|10": {
+   "spearman": 0.2573892829899557,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.22994712052857175,
+   "nn_genus": 0.6229508196721312,
+   "nn_subgenus": 0.4807692307692308,
+   "nn_top3": 0.35384615384615387,
+   "nn_host": 0.24615384615384617,
+   "upgma_nRF": 0.7903225806451613,
+   "upgma_nRF_orf1b": 0.7903225806451613,
+   "upgma_strong_recovered": 0.24,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 3,
+   "nj_nRF": 0.2903225806451613,
+   "nj_nRF_orf1b": 0.25806451612903225,
+   "nj_strong_recovered": 0.8,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 16
+  },
+  "d2star-M0|10": {
+   "spearman": 0.5539946398307762,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.5818878195860415,
+   "nn_genus": 1.0,
+   "nn_subgenus": 0.9807692307692307,
+   "nn_top3": 0.8923076923076924,
+   "nn_host": 0.676923076923077,
+   "upgma_nRF": 0.24193548387096775,
+   "upgma_nRF_orf1b": 0.22580645161290322,
+   "upgma_strong_recovered": 0.86,
+   "upgma_genus_clans": 2,
+   "upgma_subgenus_clans": 16,
+   "nj_nRF": 0.24193548387096775,
+   "nj_nRF_orf1b": 0.22580645161290322,
+   "nj_strong_recovered": 0.86,
+   "nj_genus_clans": 3,
+   "nj_subgenus_clans": 16
+  },
+  "d2star-M1|10": {
+   "spearman": 0.6298263925726684,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.6201421876217648,
+   "nn_genus": 1.0,
+   "nn_subgenus": 0.9807692307692307,
+   "nn_top3": 0.9230769230769231,
+   "nn_host": 0.6923076923076923,
+   "upgma_nRF": 0.22580645161290322,
+   "upgma_nRF_orf1b": 0.1774193548387097,
+   "upgma_strong_recovered": 0.88,
+   "upgma_genus_clans": 2,
+   "upgma_subgenus_clans": 16,
+   "nj_nRF": 0.1935483870967742,
+   "nj_nRF_orf1b": 0.16129032258064516,
+   "nj_strong_recovered": 0.92,
+   "nj_genus_clans": 4,
+   "nj_subgenus_clans": 16
+  },
+  "presence-jaccard|10": {
+   "spearman": 0.6619717313494344,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.6450823097026845,
+   "nn_genus": 0.9672131147540983,
+   "nn_subgenus": 0.9423076923076923,
+   "nn_top3": 0.8461538461538461,
+   "nn_host": 0.6307692307692307,
+   "upgma_nRF": 0.3870967741935484,
+   "upgma_nRF_orf1b": 0.3548387096774194,
+   "upgma_strong_recovered": 0.7,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 15,
+   "nj_nRF": 0.24193548387096775,
+   "nj_nRF_orf1b": 0.25806451612903225,
+   "nj_strong_recovered": 0.82,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 16
+  },
+  "original-pipeline|1": {
+   "spearman": 0.4686653914188753,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4621800459138277,
+   "nn_genus": 0.8852459016393442,
+   "nn_subgenus": 0.5961538461538461,
+   "nn_top3": 0.5538461538461539,
+   "nn_host": 0.47692307692307695,
+   "upgma_nRF": 0.7580645161290323,
+   "upgma_nRF_orf1b": 0.7419354838709677,
+   "upgma_strong_recovered": 0.28,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 2,
+   "nj_nRF": 0.8548387096774194,
+   "nj_nRF_orf1b": 0.8387096774193549,
+   "nj_strong_recovered": 0.18,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 2,
+   "single_nRF": 0.7741935483870968,
+   "single_nRF_orf1b": 0.7580645161290323,
+   "single_strong_recovered": 0.26,
+   "single_genus_clans": 1,
+   "single_subgenus_clans": 2
+  },
+  "original-pipeline|2": {
+   "spearman": 0.4383887309764292,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4348746893557081,
+   "nn_genus": 0.8852459016393442,
+   "nn_subgenus": 0.6730769230769231,
+   "nn_top3": 0.6461538461538462,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.7258064516129032,
+   "upgma_nRF_orf1b": 0.7096774193548387,
+   "upgma_strong_recovered": 0.32,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 4,
+   "nj_nRF": 0.7903225806451613,
+   "nj_nRF_orf1b": 0.7741935483870968,
+   "nj_strong_recovered": 0.24,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4,
+   "single_nRF": 0.7419354838709677,
+   "single_nRF_orf1b": 0.7258064516129032,
+   "single_strong_recovered": 0.3,
+   "single_genus_clans": 0,
+   "single_subgenus_clans": 4
+  },
+  "original-pipeline|3": {
+   "spearman": 0.4048119641584322,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4059604859340563,
+   "nn_genus": 0.9180327868852459,
+   "nn_subgenus": 0.6923076923076923,
+   "nn_top3": 0.6923076923076923,
+   "nn_host": 0.6153846153846154,
+   "upgma_nRF": 0.6935483870967742,
+   "upgma_nRF_orf1b": 0.6774193548387096,
+   "upgma_strong_recovered": 0.36,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 5,
+   "nj_nRF": 0.7580645161290323,
+   "nj_nRF_orf1b": 0.7419354838709677,
+   "nj_strong_recovered": 0.28,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 5,
+   "single_nRF": 0.7258064516129032,
+   "single_nRF_orf1b": 0.7096774193548387,
+   "single_strong_recovered": 0.32,
+   "single_genus_clans": 0,
+   "single_subgenus_clans": 5
+  },
+  "cds-codon-freq|0": {
+   "spearman": 0.39488098398478017,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.39142326251888965,
+   "nn_genus": 0.9344262295081968,
+   "nn_subgenus": 0.7115384615384616,
+   "nn_top3": 0.6615384615384615,
+   "nn_host": 0.6,
+   "upgma_nRF": 0.7419354838709677,
+   "upgma_nRF_orf1b": 0.7258064516129032,
+   "upgma_strong_recovered": 0.3,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 4,
+   "nj_nRF": 0.8064516129032258,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.22,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4
+  },
+  "cds-rscu|0": {
+   "spearman": 0.29457366142853886,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.2928059553239755,
+   "nn_genus": 0.8688524590163934,
+   "nn_subgenus": 0.6153846153846154,
+   "nn_top3": 0.6307692307692307,
+   "nn_host": 0.5230769230769231,
+   "upgma_nRF": 0.7903225806451613,
+   "upgma_nRF_orf1b": 0.7741935483870968,
+   "upgma_strong_recovered": 0.26,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 3,
+   "nj_nRF": 0.8064516129032258,
+   "nj_nRF_orf1b": 0.7903225806451613,
+   "nj_strong_recovered": 0.24,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 4
+  },
+  "cds-aa-freq|0": {
+   "spearman": 0.6152675172016835,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.6224205195733307,
+   "nn_genus": 0.9672131147540983,
+   "nn_subgenus": 0.7307692307692307,
+   "nn_top3": 0.7076923076923077,
+   "nn_host": 0.5846153846153846,
+   "upgma_nRF": 0.5967741935483871,
+   "upgma_nRF_orf1b": 0.5967741935483871,
+   "upgma_strong_recovered": 0.44,
+   "upgma_genus_clans": 1,
+   "upgma_subgenus_clans": 6,
+   "nj_nRF": 0.6774193548387096,
+   "nj_nRF_orf1b": 0.6612903225806451,
+   "nj_strong_recovered": 0.36,
+   "nj_genus_clans": 1,
+   "nj_subgenus_clans": 5
+  },
+  "genome-length|0": {
+   "spearman": 0.47196346216803625,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 0.4506913703458883,
+   "nn_genus": 0.7540983606557377,
+   "nn_subgenus": 0.3269230769230769,
+   "nn_top3": 0.26153846153846155,
+   "nn_host": 0.4,
+   "upgma_nRF": 0.9516129032258065,
+   "upgma_nRF_orf1b": 0.9516129032258065,
+   "upgma_strong_recovered": 0.06,
+   "upgma_genus_clans": 0,
+   "upgma_subgenus_clans": 1,
+   "nj_nRF": 1.0,
+   "nj_nRF_orf1b": 1.0,
+   "nj_strong_recovered": 0.0,
+   "nj_genus_clans": 0,
+   "nj_subgenus_clans": 0
+  },
+  "reference: RdRp tree|0": {
+   "spearman": 1.0,
+   "mantel_p": NaN,
+   "spearman_orf1b": 0.9715208572728995,
+   "nn_genus": 1.0,
+   "nn_subgenus": 1.0,
+   "nn_top3": 1.0,
+   "nn_host": 0.6461538461538462,
+   "upgma_nRF": 0.0,
+   "upgma_nRF_orf1b": 0.0967741935483871,
+   "upgma_strong_recovered": 1.0,
+   "upgma_genus_clans": 4,
+   "upgma_subgenus_clans": 16,
+   "nj_nRF": 0.0,
+   "nj_nRF_orf1b": 0.0967741935483871,
+   "nj_strong_recovered": 1.0,
+   "nj_genus_clans": 4,
+   "nj_subgenus_clans": 16
+  },
+  "reference: ORF1b tree|0": {
+   "spearman": 0.9715208572728995,
+   "mantel_p": 0.001,
+   "spearman_orf1b": 1.0,
+   "nn_genus": 1.0,
+   "nn_subgenus": 1.0,
+   "nn_top3": 0.9846153846153847,
+   "nn_host": 0.6307692307692307,
+   "upgma_nRF": 0.0967741935483871,
+   "upgma_nRF_orf1b": 0.0,
+   "upgma_strong_recovered": 1.0,
+   "upgma_genus_clans": 4,
+   "upgma_subgenus_clans": 16,
+   "nj_nRF": 0.0967741935483871,
+   "nj_nRF_orf1b": 0.0,
+   "nj_strong_recovered": 1.0,
+   "nj_genus_clans": 4,
+   "nj_subgenus_clans": 16
+  }
+ },
+ "base_composition_share": {
+  "2": {
+   "spearman_with_k1": 0.9510532062310054,
+   "r2_with_M0_expected": 0.9482067971592388
+  },
+  "3": {
+   "spearman_with_k1": 0.9190854022905922,
+   "r2_with_M0_expected": 0.9117108279858277
+  },
+  "4": {
+   "spearman_with_k1": 0.8973078859311441,
+   "r2_with_M0_expected": 0.8948500972275871
+  },
+  "5": {
+   "spearman_with_k1": 0.8745546340572771,
+   "r2_with_M0_expected": 0.8760172285289383
+  },
+  "6": {
+   "spearman_with_k1": 0.851048232295229,
+   "r2_with_M0_expected": 0.8462886088328568
+  },
+  "7": {
+   "spearman_with_k1": 0.8174459810572257,
+   "r2_with_M0_expected": 0.7645008797429124
+  },
+  "8": {
+   "spearman_with_k1": 0.7190566681436455,
+   "r2_with_M0_expected": 0.5342769197320232
+  },
+  "9": {
+   "spearman_with_k1": 0.5732562501303491,
+   "r2_with_M0_expected": 0.2701452323194631
+  },
+  "10": {
+   "spearman_with_k1": 0.4632025524264832,
+   "r2_with_M0_expected": 0.15005748006090844
+  }
+ },
+ "cosine_tri": {
+  "pairs": 2080,
+  "min": 0.8179654524923913,
+  "median": 0.9810017453704349,
+  "max": 0.9999856759466671,
+  "within_genus_median": 0.9864120448573458,
+  "between_genus_median": 0.9786216250514812,
+  "within_genus_range": [
+   0.8813502678856878,
+   0.9999856759466671
+  ],
+  "between_genus_range": [
+   0.8179654524923913,
+   0.995771887460977
+  ],
+  "shuffle_mean": 0.9685201271885937,
+  "shuffle_min": 0.93244428078877,
+  "shuffle_max": 0.9870916853781913,
+  "shuffle_n": 1300,
+  "self_vs_expected_mean": 0.9692782166396752,
+  "self_vs_expected_range": [
+   0.9370488101889655,
+   0.9851742470591537
+  ],
+  "pairs_at_or_below_shuffle_max": 0.7129807692307693,
+  "pairs_at_or_below_shuffle_mean": 0.2725961538461538,
+  "between_genus_pairs_above_within_median": 0.22878998609179416
+ },
+ "bootstrap_targets": [
+  "freq-euclid|3",
+  "d2star-M1|8"
+ ],
+ "bootstrap": {
+  "freq-euclid|3": {
+   "upgma": {
+    "splits": 62,
+    "in_reference": 17,
+    "support_ge70": 14,
+    "support_ge70_in_reference": 9,
+    "support_ge70_not_in_reference": 5,
+    "support_ge95": 4,
+    "support_ge95_in_reference": 2,
+    "support_ge95_not_in_reference": 2
+   },
+   "nj": {
+    "splits": 62,
+    "in_reference": 12,
+    "support_ge70": 12,
+    "support_ge70_in_reference": 6,
+    "support_ge70_not_in_reference": 6,
+    "support_ge95": 4,
+    "support_ge95_in_reference": 2,
+    "support_ge95_not_in_reference": 2
+   }
+  },
+  "d2star-M1|8": {
+   "upgma": {
+    "splits": 62,
+    "in_reference": 43,
+    "support_ge70": 35,
+    "support_ge70_in_reference": 31,
+    "support_ge70_not_in_reference": 4,
+    "support_ge95": 21,
+    "support_ge95_in_reference": 20,
+    "support_ge95_not_in_reference": 1
+   },
+   "nj": {
+    "splits": 62,
+    "in_reference": 50,
+    "support_ge70": 38,
+    "support_ge70_in_reference": 34,
+    "support_ge70_not_in_reference": 4,
+    "support_ge95": 23,
+    "support_ge95_in_reference": 22,
+    "support_ge95_not_in_reference": 1
+   }
+  }
+ },
+ "named_groups": {
+  "freq-euclid|1": {
+   "sars2_nearest": "Thrush CoV HKU12",
+   "sars2_nearest_genus": "Deltacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 8,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|1": {
+   "sars2_nearest": "Thrush CoV HKU12",
+   "sars2_nearest_genus": "Deltacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 8,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "zfreq-euclid|1": {
+   "sars2_nearest": "Thrush CoV HKU12",
+   "sars2_nearest_genus": "Deltacoronavirus",
+   "rank_of_SARS_Tor2": 6,
+   "rank_of_BM48_31": 11,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-euclid|2": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 5,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|2": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 5,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "zfreq-euclid|2": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 4,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|2": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "karlin-delta|2": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 5,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "freq-euclid|3": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 6,
+   "rank_of_BM48_31": 3,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|3": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 6,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "zfreq-euclid|3": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 3,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|3": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 4,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "d2star-M1|3": {
+   "sars2_nearest": "BtRf-AlphaCoV HuB2013",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 6,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-euclid|4": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 4,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|4": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 4,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "zfreq-euclid|4": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 5,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|4": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "d2star-M1|4": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-euclid|5": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|5": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "zfreq-euclid|5": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|5": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "d2star-M1|5": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "presence-jaccard|5": {
+   "sars2_nearest": "Bat CoV (Eidolon)",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 25,
+   "rank_of_BM48_31": 19,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": false
+  },
+  "freq-euclid|6": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|6": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "zfreq-euclid|6": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|6": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": false
+  },
+  "d2star-M1|6": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "presence-jaccard|6": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 7,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": false
+  },
+  "freq-euclid|7": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|7": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "zfreq-euclid|7": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|7": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M1|7": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "presence-jaccard|7": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-euclid|8": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|8": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "zfreq-euclid|8": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|8": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M1|8": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "presence-jaccard|8": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-euclid|9": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|9": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "zfreq-euclid|9": {
+   "sars2_nearest": "Wencheng shrew CoV (NC_035191)",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 7,
+   "rank_of_BM48_31": 19,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|9": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M1|9": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "presence-jaccard|9": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-euclid|10": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "freq-cosine|10": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "zfreq-euclid|10": {
+   "sars2_nearest": "Wencheng shrew CoV (NC_035191)",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 21,
+   "rank_of_BM48_31": 28,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M0|10": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "d2star-M1|10": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "presence-jaccard|10": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "original-pipeline|1": {
+   "sars2_nearest": "Feline inf. peritonitis virus",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 3,
+   "rank_of_BM48_31": 5,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "original-pipeline|2": {
+   "sars2_nearest": "TGEV",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 4,
+   "rank_of_BM48_31": 3,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "original-pipeline|3": {
+   "sars2_nearest": "Bat CoV BM48-31",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 4,
+   "rank_of_BM48_31": 1,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "cds-codon-freq|0": {
+   "sars2_nearest": "Feline inf. peritonitis virus",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 4,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "cds-rscu|0": {
+   "sars2_nearest": "Feline inf. peritonitis virus",
+   "sars2_nearest_genus": "Alphacoronavirus",
+   "rank_of_SARS_Tor2": 6,
+   "rank_of_BM48_31": 3,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  },
+  "cds-aa-freq|0": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": true
+  },
+  "genome-length|0": {
+   "sars2_nearest": "HCoV-HKU1",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 2,
+   "rank_of_BM48_31": 11,
+   "sarbecovirus_clan_upgma": false,
+   "sarbecovirus_clan_nj": false,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": false
+  },
+  "reference: RdRp tree|0": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": false,
+   "four_genome_group_clan_nj": false
+  },
+  "reference: ORF1b tree|0": {
+   "sars2_nearest": "SARS-CoV Tor2",
+   "sars2_nearest_genus": "Betacoronavirus",
+   "rank_of_SARS_Tor2": 1,
+   "rank_of_BM48_31": 2,
+   "sarbecovirus_clan_upgma": true,
+   "sarbecovirus_clan_nj": true,
+   "four_genome_group_clan_upgma": true,
+   "four_genome_group_clan_nj": true
+  }
+ },
+ "four_genome_group": {
+  "members": [
+   "Bovine CoV",
+   "HCoV-OC43",
+   "Rabbit CoV HKU14",
+   "Rodent CoV"
+  ],
+  "rdrp_patristic_max_within": 0.12270208810000001,
+  "rdrp_patristic_median_all_pairs": 1.15940971,
+  "clade_in_rdrp_tree": false,
+  "clade_in_orf1b_tree": true,
+  "support_in_orf1b_tree_alrt_ufboot": [
+   91.7,
+   94.0
+  ],
+  "trio_without_rodent_support_rdrp": [
+   76.9,
+   92.0
+  ],
+  "trio_without_rodent_support_orf1b": [
+   99.8,
+   100.0
+  ],
+  "bootstrap_upgma": {
+   "freq-euclid|3": 0.954,
+   "d2star-M1|8": 0.977
+  },
+  "bootstrap_nj": {
+   "freq-euclid|3": 0.47,
+   "d2star-M1|8": 0.942
+  },
+  "methods_recovering_clan_upgma": 55,
+  "methods_total": 60
+ },
+ "panels": {
+  "multi-host (12)": {
+   "reference_splits": 9,
+   "k1": {
+    "original_shared_with_reference": 4,
+    "original_splits": 9,
+    "corrected_shared_with_reference": 2,
+    "corrected_splits": 9,
+    "original_vs_corrected_shared": 4
+   },
+   "k2": {
+    "original_shared_with_reference": 5,
+    "original_splits": 9,
+    "corrected_shared_with_reference": 4,
+    "corrected_splits": 9,
+    "original_vs_corrected_shared": 5
+   },
+   "k3": {
+    "original_shared_with_reference": 5,
+    "original_splits": 9,
+    "corrected_shared_with_reference": 4,
+    "corrected_splits": 9,
+    "original_vs_corrected_shared": 6
+   },
+   "d2star-M1|8|upgma": {
+    "shared_with_reference": 6,
+    "splits": 9
+   },
+   "d2star-M1|8|nj": {
+    "shared_with_reference": 8,
+    "splits": 9
+   }
+  },
+  "bat (13)": {
+   "reference_splits": 10,
+   "k1": {
+    "original_shared_with_reference": 1,
+    "original_splits": 10,
+    "corrected_shared_with_reference": 1,
+    "corrected_splits": 10,
+    "original_vs_corrected_shared": 0
+   },
+   "k2": {
+    "original_shared_with_reference": 3,
+    "original_splits": 10,
+    "corrected_shared_with_reference": 2,
+    "corrected_splits": 10,
+    "original_vs_corrected_shared": 3
+   },
+   "k3": {
+    "original_shared_with_reference": 3,
+    "original_splits": 10,
+    "corrected_shared_with_reference": 3,
+    "corrected_splits": 10,
+    "original_vs_corrected_shared": 3
+   },
+   "d2star-M1|8|upgma": {
+    "shared_with_reference": 4,
+    "splits": 10
+   },
+   "d2star-M1|8|nj": {
+    "shared_with_reference": 4,
+    "splits": 10
+   }
+  },
+  "human (4)": {
+   "reference_splits": 1,
+   "k1": {
+    "original_shared_with_reference": 0,
+    "original_splits": 1,
+    "corrected_shared_with_reference": 0,
+    "corrected_splits": 1,
+    "original_vs_corrected_shared": 1
+   },
+   "k2": {
+    "original_shared_with_reference": 1,
+    "original_splits": 1,
+    "corrected_shared_with_reference": 0,
+    "corrected_splits": 1,
+    "original_vs_corrected_shared": 0
+   },
+   "k3": {
+    "original_shared_with_reference": 0,
+    "original_splits": 1,
+    "corrected_shared_with_reference": 0,
+    "corrected_splits": 1,
+    "original_vs_corrected_shared": 1
+   },
+   "d2star-M1|8|upgma": {
+    "shared_with_reference": 1,
+    "splits": 1
+   },
+   "d2star-M1|8|nj": {
+    "shared_with_reference": 1,
+    "splits": 1
+   }
+  },
+  "bat + human (17)": {
+   "reference_splits": 14,
+   "k1": {
+    "original_shared_with_reference": 1,
+    "original_splits": 14,
+    "corrected_shared_with_reference": 1,
+    "corrected_splits": 14,
+    "original_vs_corrected_shared": 1
+   },
+   "k2": {
+    "original_shared_with_reference": 0,
+    "original_splits": 14,
+    "corrected_shared_with_reference": 1,
+    "corrected_splits": 14,
+    "original_vs_corrected_shared": 5
+   },
+   "k3": {
+    "original_shared_with_reference": 3,
+    "original_splits": 14,
+    "corrected_shared_with_reference": 2,
+    "corrected_splits": 14,
+    "original_vs_corrected_shared": 6
+   },
+   "d2star-M1|8|upgma": {
+    "shared_with_reference": 6,
+    "splits": 14
+   },
+   "d2star-M1|8|nj": {
+    "shared_with_reference": 6,
+    "splits": 14
+   }
+  }
+ },
+ "panel12_bootstrap": {
+  "freq-euclid|1": {
+   "four_genome_group_support_upgma": 0.72,
+   "four_genome_group_support_nj": 0.643,
+   "upgma": {
+    "splits": 9,
+    "in_reference": 2,
+    "support_ge70": 2,
+    "support_ge70_in_reference": 1,
+    "support_ge70_not_in_reference": 1,
+    "support_ge95": 0,
+    "support_ge95_in_reference": 0,
+    "support_ge95_not_in_reference": 0
+   },
+   "nj": {
+    "splits": 9,
+    "in_reference": 4,
+    "support_ge70": 2,
+    "support_ge70_in_reference": 0,
+    "support_ge70_not_in_reference": 2,
+    "support_ge95": 2,
+    "support_ge95_in_reference": 0,
+    "support_ge95_not_in_reference": 2
+   },
+   "upgma_splits": [
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.911,
+     false
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Bulbul CoV HKU11",
+      "Canada goose CoV",
+      "Duck CoV",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.72,
+     true
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.688,
+     false
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "SARS-CoV-2"
+     ],
+     0.621,
+     false
+    ],
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43"
+     ],
+     0.397,
+     true
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.366,
+     false
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Bovine CoV",
+      "Bulbul CoV HKU11",
+      "Canada goose CoV",
+      "Duck CoV",
+      "Feline inf. peritonitis virus",
+      "HCoV-OC43",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.364,
+     false
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Canada goose CoV",
+      "Duck CoV"
+     ],
+     0.315,
+     false
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Duck CoV"
+     ],
+     0.295,
+     false
+    ]
+   ]
+  },
+  "freq-euclid|2": {
+   "four_genome_group_support_upgma": 0.964,
+   "four_genome_group_support_nj": 0.965,
+   "upgma": {
+    "splits": 9,
+    "in_reference": 4,
+    "support_ge70": 1,
+    "support_ge70_in_reference": 1,
+    "support_ge70_not_in_reference": 0,
+    "support_ge95": 1,
+    "support_ge95_in_reference": 1,
+    "support_ge95_not_in_reference": 0
+   },
+   "nj": {
+    "splits": 9,
+    "in_reference": 4,
+    "support_ge70": 6,
+    "support_ge70_in_reference": 1,
+    "support_ge70_not_in_reference": 5,
+    "support_ge95": 3,
+    "support_ge95_in_reference": 1,
+    "support_ge95_not_in_reference": 2
+   },
+   "upgma_splits": [
+    [
+     [
+      "Bat CoV 1A",
+      "Bulbul CoV HKU11",
+      "Canada goose CoV",
+      "Duck CoV",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.964,
+     true
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.665,
+     false
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.513,
+     false
+    ],
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43"
+     ],
+     0.432,
+     true
+    ],
+    [
+     [
+      "Canada goose CoV",
+      "Duck CoV"
+     ],
+     0.43,
+     true
+    ],
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43",
+      "Rabbit CoV HKU14"
+     ],
+     0.413,
+     true
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "SARS-CoV-2"
+     ],
+     0.349,
+     false
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "SARS-CoV-2"
+     ],
+     0.308,
+     false
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Canada goose CoV",
+      "Duck CoV"
+     ],
+     0.302,
+     false
+    ]
+   ]
+  },
+  "freq-euclid|3": {
+   "four_genome_group_support_upgma": 0.989,
+   "four_genome_group_support_nj": 0.988,
+   "upgma": {
+    "splits": 9,
+    "in_reference": 4,
+    "support_ge70": 2,
+    "support_ge70_in_reference": 2,
+    "support_ge70_not_in_reference": 0,
+    "support_ge95": 1,
+    "support_ge95_in_reference": 1,
+    "support_ge95_not_in_reference": 0
+   },
+   "nj": {
+    "splits": 9,
+    "in_reference": 4,
+    "support_ge70": 7,
+    "support_ge70_in_reference": 3,
+    "support_ge70_not_in_reference": 4,
+    "support_ge95": 4,
+    "support_ge95_in_reference": 1,
+    "support_ge95_not_in_reference": 3
+   },
+   "upgma_splits": [
+    [
+     [
+      "Bat CoV 1A",
+      "Bulbul CoV HKU11",
+      "Canada goose CoV",
+      "Duck CoV",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.989,
+     true
+    ],
+    [
+     [
+      "Canada goose CoV",
+      "Duck CoV"
+     ],
+     0.707,
+     true
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.694,
+     false
+    ],
+    [
+     [
+      "Feline inf. peritonitis virus",
+      "SARS-CoV-2"
+     ],
+     0.684,
+     false
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.584,
+     false
+    ],
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43",
+      "Rabbit CoV HKU14"
+     ],
+     0.561,
+     true
+    ],
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43"
+     ],
+     0.528,
+     true
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.375,
+     false
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Feline inf. peritonitis virus",
+      "SARS-CoV-2"
+     ],
+     0.304,
+     false
+    ]
+   ]
+  },
+  "d2star-M1|8": {
+   "four_genome_group_support_upgma": 1.0,
+   "four_genome_group_support_nj": 1.0,
+   "upgma": {
+    "splits": 9,
+    "in_reference": 6,
+    "support_ge70": 5,
+    "support_ge70_in_reference": 5,
+    "support_ge70_not_in_reference": 0,
+    "support_ge95": 5,
+    "support_ge95_in_reference": 5,
+    "support_ge95_not_in_reference": 0
+   },
+   "nj": {
+    "splits": 9,
+    "in_reference": 8,
+    "support_ge70": 7,
+    "support_ge70_in_reference": 7,
+    "support_ge70_not_in_reference": 0,
+    "support_ge95": 5,
+    "support_ge95_in_reference": 5,
+    "support_ge95_not_in_reference": 0
+   },
+   "upgma_splits": [
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43",
+      "Rabbit CoV HKU14"
+     ],
+     1.0,
+     true
+    ],
+    [
+     [
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     1.0,
+     true
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Bulbul CoV HKU11",
+      "Canada goose CoV",
+      "Duck CoV",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     1.0,
+     true
+    ],
+    [
+     [
+      "Bovine CoV",
+      "HCoV-OC43"
+     ],
+     0.998,
+     true
+    ],
+    [
+     [
+      "Canada goose CoV",
+      "Duck CoV"
+     ],
+     0.976,
+     true
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Feline inf. peritonitis virus"
+     ],
+     0.675,
+     true
+    ],
+    [
+     [
+      "Bulbul CoV HKU11",
+      "Canada goose CoV",
+      "Duck CoV"
+     ],
+     0.147,
+     false
+    ],
+    [
+     [
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.123,
+     false
+    ],
+    [
+     [
+      "Bat CoV 1A",
+      "Feline inf. peritonitis virus",
+      "Night heron CoV HKU19",
+      "SARS-CoV Tor2",
+      "SARS-CoV-2"
+     ],
+     0.068,
+     false
+    ]
+   ]
+  }
+ },
+ "cosine_six": {
+  "accessions": [
+   "NC_014470",
+   "NC_022103",
+   "NC_006213",
+   "NC_002645",
+   "NC_048214",
+   "NC_017083"
+  ],
+  "matrix": [
+   [
+    1.0,
+    0.9837,
+    0.97,
+    0.9841,
+    0.9845,
+    0.9729
+   ],
+   [
+    0.9837,
+    1.0,
+    0.9797,
+    0.9918,
+    0.9908,
+    0.9833
+   ],
+   [
+    0.97,
+    0.9797,
+    1.0,
+    0.9855,
+    0.9896,
+    0.9993
+   ],
+   [
+    0.9841,
+    0.9918,
+    0.9855,
+    1.0,
+    0.9939,
+    0.9872
+   ],
+   [
+    0.9845,
+    0.9908,
+    0.9896,
+    0.9939,
+    1.0,
+    0.9917
+   ],
+   [
+    0.9729,
+    0.9833,
+    0.9993,
+    0.9872,
+    0.9917,
+    1.0
+   ]
+  ]
+ },
+ "host_residual_test": {
+  "freq-euclid|3": {
+   "residual_difference_same_minus_different_host_sd_units": 0.009181121185593371,
+   "p_two_sided": 0.955,
+   "within_genus_pairs": 642,
+   "same_host_pairs": 191
+  },
+  "freq-euclid|8": {
+   "residual_difference_same_minus_different_host_sd_units": 0.01823777651983078,
+   "p_two_sided": 0.87,
+   "within_genus_pairs": 642,
+   "same_host_pairs": 191
+  },
+  "d2star-M1|10": {
+   "residual_difference_same_minus_different_host_sd_units": -0.03904609759986861,
+   "p_two_sided": 0.612,
+   "within_genus_pairs": 642,
+   "same_host_pairs": 191
+  },
+  "d2star-M1|8": {
+   "residual_difference_same_minus_different_host_sd_units": -0.009325750040582788,
+   "p_two_sided": 0.851,
+   "within_genus_pairs": 642,
+   "same_host_pairs": 191
+  }
+ },
+ "best": {
+  "freq": "freq-euclid|8",
+  "d2": "d2star-M1|10",
+  "tree": "d2star-M1|8"
+ }
+}

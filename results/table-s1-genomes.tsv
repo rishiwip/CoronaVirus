@@ -1,0 +1,66 @@
+accession_version	name	short_label	length_nt	ncbi_genus	ncbi_subgenus	host_qualifier	host_group	A_pct	C_pct	G_pct	T_pct	ambiguous_nt	cds_codons
+NC_048212.1	Bat coronavirus	Bat CoV (Eidolon)	28975	not assigned	not assigned	Eidolon helvum	Chiroptera	24.68	18.48	22.90	33.94	0	9488
+NC_034440.1	Bat coronavirus	Bat CoV (Pipistrellus)	29642	not assigned	not assigned	Pipistrellus cf. hesperidus; specimen voucher: OTBA03-20130220	Chiroptera	25.91	19.90	21.27	32.93	0	10033
+NC_046954.1	Rodent coronavirus	Rodent CoV	31393	not assigned	not assigned	Myodes rufocanus	Rodentia	27.31	15.74	22.24	34.71	0	9686
+NC_046964.1	Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015	Bat-CoV P.kuhlii/Italy	28128	Alphacoronavirus	Nyctacovirus	Pipistrellus kuhlii	Chiroptera	25.43	18.29	22.12	34.16	4	8995
+NC_025217.1	Bat Hp-betacoronavirus/Zhejiang2013	Bat Hp-betaCoV Zhejiang2013	31491	Betacoronavirus	Hibecovirus	Hipposideros pratti	Chiroptera	28.70	20.25	21.03	30.02	0	10168
+NC_010437.1	Bat coronavirus 1A	Bat CoV 1A	28326	Alphacoronavirus	Minunacovirus	not given	Chiroptera	26.83	17.18	20.96	35.03	0	9250
+NC_014470.1	Bat coronavirus BM48-31/BGR/2008	Bat CoV BM48-31	29276	Betacoronavirus	Sarbecovirus	Rhinolophus blasii	Chiroptera	27.77	19.44	21.01	31.78	0	9543
+NC_022103.1	Bat coronavirus CDPHE15/USA/2006	Bat CoV CDPHE15	28035	Alphacoronavirus	Colacovirus	Myotis lucifugus	Chiroptera	24.90	18.09	22.74	34.27	0	9145
+NC_010646.1	Beluga whale coronavirus SW1	Beluga whale CoV SW1	31686	Gammacoronavirus	Cegacovirus	Delphinapterus leucas (beluga whale)	Artiodactyla	28.30	15.79	23.46	32.46	0	10177
+NC_038294.1	Betacoronavirus England 1	MERS-CoV England 1	30111	Betacoronavirus	Merbecovirus	Homo sapiens	Primates	26.23	20.25	20.93	32.60	0	9947
+NC_019843.3	Middle East respiratory syndrome-related coronavirus	MERS-CoV	30119	Betacoronavirus	Merbecovirus	Homo sapiens	Primates	26.23	20.31	20.93	32.53	0	9949
+NC_039207.1	Betacoronavirus Erinaceus/VMC/DEU/2012	Hedgehog betaCoV (Erinaceus)	30148	Betacoronavirus	Merbecovirus	Erinaceus europaeus	Eulipotyphla	29.25	16.40	21.09	33.27	0	10196
+NC_026011.1	Betacoronavirus HKU24	BetaCoV HKU24	31249	Betacoronavirus	Embecovirus	Rattus norvegicus (Norway rat)	Rodentia	27.20	17.09	22.98	32.72	0	10436
+NC_003045.1	Bovine coronavirus	Bovine CoV	31028	Betacoronavirus	Embecovirus	not given	Artiodactyla	27.35	15.32	21.81	35.52	0	10322
+NC_006213.1	Human coronavirus OC43	HCoV-OC43	30741	Betacoronavirus	Embecovirus	not given	Primates	27.66	15.16	21.63	35.56	0	10090
+NC_028811.1	BtMr-AlphaCoV/SAX2011	BtMr-AlphaCoV SAX2011	27935	Alphacoronavirus	Myotacovirus	Myotis ricketti	Chiroptera	25.78	18.43	22.56	33.23	0	9006
+NC_028833.1	BtNv-AlphaCoV/SC2013	BtNv-AlphaCoV SC2013	27783	Alphacoronavirus	Nyctacovirus	Nyctalus velutinus	Chiroptera	24.22	18.55	23.27	33.96	0	8888
+NC_028814.1	BtRf-AlphaCoV/HuB2013	BtRf-AlphaCoV HuB2013	27608	Alphacoronavirus	Decacovirus	Rhinolophus ferrumequinum	Chiroptera	28.05	17.00	21.27	33.69	0	9090
+NC_028824.1	BtRf-AlphaCoV/YN2012	BtRf-AlphaCoV YN2012	26975	Alphacoronavirus	Rhinacovirus	Rhinolophus ferrumequinum	Chiroptera	26.06	16.27	21.53	36.14	0	8761
+NC_011547.1	Bulbul coronavirus HKU11-934	Bulbul CoV HKU11	26487	Deltacoronavirus	Buldecovirus	red-whiskered bulbul	Aves	29.21	19.68	19.01	32.09	0	8498
+NC_028752.1	Camel alphacoronavirus	Camel alphaCoV	27395	Alphacoronavirus	Duvinacovirus	camel	Artiodactyla	27.07	16.76	21.65	34.52	6	8849
+NC_002645.1	Human coronavirus 229E	HCoV-229E	27317	Alphacoronavirus	Duvinacovirus	not given	Primates	27.16	16.65	21.61	34.58	0	8850
+NC_046965.1	Canada goose coronavirus	Canada goose CoV	28539	Gammacoronavirus	not assigned	Branta canadensis	Aves	25.72	16.60	21.83	35.85	2	9297
+NC_016996.1	Common moorhen coronavirus HKU21	Moorhen CoV HKU21	26223	Deltacoronavirus	Buldecovirus	common moorhen	Aves	28.99	15.86	19.21	35.95	0	8502
+NC_034972.1	Coronavirus AcCoV-JC34	AcCoV-JC34	27682	Alphacoronavirus	Luchacovirus	Apodemus chevrieri	Rodentia	25.68	18.00	22.07	34.25	0	8980
+NC_048214.1	Duck coronavirus	Duck CoV	27754	Gammacoronavirus	Igacovirus	duck	Aves	26.72	17.00	22.27	34.00	0	9047
+NC_001451.1	Infectious bronchitis virus	IBV (NC_001451)	27608	Gammacoronavirus	Igacovirus	not given	Aves	28.86	16.22	21.71	33.21	0	8810
+NC_048213.1	Infectious bronchitis virus	IBV (NC_048213)	27464	Gammacoronavirus	Igacovirus	chicken	Aves	28.68	16.22	21.81	33.29	0	8804
+NC_010800.1	Turkey coronavirus	Turkey CoV	27657	Gammacoronavirus	Igacovirus	turkey	Aves	28.81	16.32	21.93	32.93	1	8931
+NC_002306.3	Feline infectious peritonitis virus	Feline inf. peritonitis virus	29355	Alphacoronavirus	Tegacovirus	not given	Carnivora	29.20	17.11	21.03	32.66	0	9340
+NC_028806.1	Swine enteric coronavirus	Swine enteric CoV	28111	Alphacoronavirus	Tegacovirus	pig	Artiodactyla	28.50	17.13	20.98	33.40	0	9164
+NC_038861.1	Transmissible gastroenteritis virus	TGEV	28586	Alphacoronavirus	Tegacovirus	pig	Artiodactyla	29.49	16.96	20.64	32.92	0	9012
+NC_030292.1	Ferret coronavirus	Ferret CoV	28434	Alphacoronavirus	Minacovirus	Mustela putorius (ferret)	Carnivora	27.83	17.17	21.83	33.16	0	9329
+NC_006577.2	Human coronavirus HKU1	HCoV-HKU1	29926	Betacoronavirus	Embecovirus	Homo sapiens	Primates	27.84	13.02	19.04	40.10	0	9992
+NC_005831.2	Human coronavirus NL63	HCoV-NL63	27553	Alphacoronavirus	Setracovirus	not given	Primates	26.32	14.44	20.02	39.22	0	8996
+NC_032730.1	Lucheng Rn rat coronavirus	Lucheng Rn rat CoV	28763	Alphacoronavirus	Luchacovirus	Rattus norvegicus	Rodentia	25.41	18.02	22.22	34.34	0	8605
+NC_016993.1	Magpie-robin coronavirus HKU18	Magpie-robin CoV HKU18	26689	Deltacoronavirus	Buldecovirus	magpie-robin	Aves	24.70	25.22	21.50	28.58	0	8485
+NC_010438.1	Miniopterus bat coronavirus HKU8	Miniopterus bat CoV HKU8	28773	Alphacoronavirus	Minunacovirus	not given	Chiroptera	23.59	18.75	23.03	34.63	0	9495
+NC_023760.1	Mink coronavirus strain WD1127	Mink CoV	28941	Alphacoronavirus	Minacovirus	Mustela vison	Carnivora	28.18	16.21	21.27	34.34	1	9477
+NC_011550.1	Munia coronavirus HKU13-3514	Munia CoV HKU13	26552	Deltacoronavirus	Buldecovirus	white-rumped munia	Aves	27.66	22.01	20.49	29.84	0	8533
+NC_048217.1	Murine hepatitis virus	MHV (NC_048217)	31335	Betacoronavirus	Embecovirus	not given	Rodentia	25.91	17.93	23.88	32.28	0	10275
+NC_001846.1	Murine hepatitis virus	MHV (NC_001846)	31357	Betacoronavirus	Embecovirus	not given	Rodentia	25.95	17.90	23.88	32.27	0	9742
+NC_012936.1	Rat coronavirus Parker	Rat CoV Parker	31250	Betacoronavirus	Embecovirus	rat	Rodentia	26.06	17.60	23.65	32.68	0	10355
+NC_048216.1	NL63-related bat coronavirus	NL63-related bat CoV (NC_048216)	28679	Alphacoronavirus	Setracovirus	Triaenops afer	Chiroptera	24.16	19.86	22.92	33.07	4	9221
+NC_032107.1	NL63-related bat coronavirus	NL63-related bat CoV (NC_032107)	28363	Alphacoronavirus	Setracovirus	Triaenops afer	Chiroptera	26.04	17.80	21.44	34.72	14	9173
+NC_016994.1	Night heron coronavirus HKU19	Night heron CoV HKU19	26077	Deltacoronavirus	Herdecovirus	night-heron	Aves	31.77	19.81	18.32	30.10	0	8469
+NC_009020.1	Pipistrellus bat coronavirus HKU5	Pipistrellus bat CoV HKU5	30482	Betacoronavirus	Merbecovirus	bat	Chiroptera	26.55	21.51	21.68	30.26	1	10184
+NC_039208.1	Porcine coronavirus HKU15	Porcine CoV HKU15	25425	Deltacoronavirus	Buldecovirus	pig	Artiodactyla	27.39	23.01	20.18	29.41	2	8369
+NC_003436.1	Porcine epidemic diarrhea virus	PEDV	28033	Alphacoronavirus	Pedacovirus	not given	Artiodactyla	24.75	19.20	22.82	33.24	0	9137
+NC_017083.1	Rabbit coronavirus HKU14	Rabbit CoV HKU14	31100	Betacoronavirus	Embecovirus	Oryctolagus cuniculus	Lagomorpha	27.17	15.65	21.99	35.19	0	10039
+NC_009988.1	Rhinolophus bat coronavirus HKU2	Rhinolophus bat CoV HKU2	27165	Alphacoronavirus	Rhinacovirus	not given	Chiroptera	25.05	16.82	22.46	35.66	0	8869
+NC_030886.1	Rousettus bat coronavirus	Rousettus bat CoV GCCDC1	30161	Betacoronavirus	Nobecovirus	Rousettus leschenaulti	Chiroptera	25.39	21.24	24.06	29.30	0	9861
+NC_018871.1	Rousettus bat coronavirus HKU10	Rousettus bat CoV HKU10	28494	Alphacoronavirus	Decacovirus	bat	Chiroptera	27.22	17.24	21.28	34.27	0	9372
+NC_009021.1	Rousettus bat coronavirus HKU9	Rousettus bat CoV HKU9	29114	Betacoronavirus	Nobecovirus	bat	Chiroptera	25.26	17.67	23.38	33.69	1	9535
+NC_004718.3	SARS coronavirus Tor2	SARS-CoV Tor2	29751	Betacoronavirus	Sarbecovirus	Homo sapiens; patient #2 with severe acute respiratory syndrome (SARS)	Primates	28.51	19.97	20.80	30.73	0	10009
+NC_045512.2	Severe acute respiratory syndrome coronavirus 2	SARS-CoV-2	29903	Betacoronavirus	Sarbecovirus	Homo sapiens	Primates	29.94	18.37	19.61	32.08	0	9755
+NC_009657.1	Scotophilus bat coronavirus 512	Scotophilus bat CoV 512	28203	Alphacoronavirus	Pedacovirus	not given	Chiroptera	26.21	18.00	22.12	33.67	0	9091
+NC_046955.1	Shrew coronavirus	Shrew CoV (Sorex)	27102	not assigned	not assigned	Sorex araneus	Eulipotyphla	30.47	15.63	20.99	32.91	0	8315
+NC_016992.1	Sparrow coronavirus HKU17	Sparrow CoV HKU17	26083	Deltacoronavirus	Buldecovirus	sparrow	Aves	27.22	24.24	20.33	28.21	7	8642
+NC_011549.1	Thrush coronavirus HKU12-600	Thrush CoV HKU12	26396	Deltacoronavirus	Buldecovirus	grey-backed thrush	Aves	28.85	18.50	19.52	33.14	0	8503
+NC_009019.1	Tylonycteris bat coronavirus HKU4	Tylonycteris bat CoV HKU4	30286	Betacoronavirus	Merbecovirus	bat	Chiroptera	27.59	17.14	20.68	34.59	0	10123
+NC_035191.1	Wencheng Sm shrew coronavirus	Wencheng shrew CoV (NC_035191)	25995	Alphacoronavirus	not assigned	Suncus murinus	Eulipotyphla	30.78	10.80	21.17	37.25	0	8133
+NC_048211.1	Wencheng Sm shrew coronavirus	Wencheng shrew CoV (NC_048211)	25984	Alphacoronavirus	not assigned	Suncus murinus	Eulipotyphla	30.75	10.87	21.17	37.21	0	8133
+NC_016991.1	White-eye coronavirus HKU16	White-eye CoV HKU16	26041	Deltacoronavirus	Buldecovirus	white-eye	Aves	28.63	20.55	19.28	31.54	0	8487
+NC_016995.1	Wigeon coronavirus HKU20	Wigeon CoV HKU20	26227	Deltacoronavirus	Andecovirus	wigeon	Aves	27.53	18.63	20.73	33.11	0	8483
